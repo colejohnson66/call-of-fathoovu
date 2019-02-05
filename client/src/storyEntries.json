@@ -1,0 +1,23 @@
+{
+    "init": {
+        "text": "The fathoovu calls. Do you...",
+        "choices": [
+            {
+                "text": "answer the phone",
+                "goto": "phone-pickup"
+            },
+            {
+                "text": "ignore it and continue eating oreos",
+                "goto": "eat-oreo"
+            }
+        ]
+    },
+    "phone-pickup": {
+        "text": "You picked up the phone. You suck.",
+        "choices": []
+    },
+    "eat-oreo": {
+        "text": "You ate an Oreo. You suck.",
+        "choices": []
+    }
+}
