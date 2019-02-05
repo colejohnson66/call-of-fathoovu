@@ -1,23 +1,241 @@
 {
     "init": {
-        "text": "The fathoovu calls. Do you...",
+        "text": "It is an average Friday night.  You are at home, sitting through a dark and stormy night...  Lightning flashes and your power goes out.  Your phone begins ringing, from a caller named... FATHOOVU",
+        "image": "urlhere",
         "choices": [
             {
-                "text": "answer the phone",
-                "goto": "phone-pickup"
+                "text": "Answer the call",
+                "goto": "answer-the-call"
             },
             {
-                "text": "ignore it and continue eating oreos",
-                "goto": "eat-oreo"
+                "text": "Eat an Oreo",
+                "goto": "eat-an-oreo"
             }
         ]
     },
-    "phone-pickup": {
-        "text": "You picked up the phone. You suck.",
-        "choices": []
+    "eat-an-oreo": {
+        "text": "You savor the delicious treat.  It's flavor is incredible, and your phone eventually stops ringing.  You contemplate that this Oreo was perhaps too good, and you start seeing colors.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "Panic and drink water",
+                "goto": "panic-and-drink-water"
+            },
+            {
+                "text": "Enjoy the trip",
+                "goto": "enjoy-the-trip"
+            }
+        ]
     },
-    "eat-oreo": {
-        "text": "You ate an Oreo. You suck.",
-        "choices": []
-    }
-}
+    "panic-and-drink-water": {
+        "text": "You run into the bathroom and begin chugging water.  As you look up, you make the mistake of looking into the mirror, and instead of seeing yourself you see Fathoovu.  Fathoovu reaches through the mirror and kills you.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "Restart?",
+                "goto": "init"
+            }
+        ]
+    },
+    "enjoy-the-trip": {
+        "text": "You relax on your couch as your tv begins to display oreo dancing gif.  You begin to laugh.  From behind you hear a bottle break, seemingly from the direction of your bathroom.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "Investigate the noise",
+                "goto": "investigate-the-noise"
+            },
+            {
+                "text": "Eat another oreo",
+                "goto": "eat-another-oreo"
+            }
+        ]
+    },
+    "investigate-the-noise": {
+        "text": "You go into your bathroom to find a broken bottle.  Strange wet hoof prints lead into your bathroom.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "Investigate further",
+                "goto": "investigate-further"
+            },
+            {
+                "text": "Call the police",
+                "goto": "call-the-police"
+            }
+        ]
+    },
+    "investigate-further": {
+        "text": "You go into your bedroom and find a weird creature, Fathoovu, standing on your bed.  It immediately turns to you and glares into your eyes.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "Run away",
+                "goto": "run-away"
+            },
+            {
+                "text": "Ask it's name",
+                "goto": "ask-its-name"
+            }
+        ]
+    },
+    "call-the-police": {
+        "text": "You pick up your phone and attempt to call the police.  Your phone is dead, however.  And so are you, as an arm reaches out of your phone and kills you.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "Restart?",
+                "goto": "init"
+            }
+        ]
+    },
+    "run-away": {
+        "text": "You begin to run away as you hear stomps behind you and an unholy roar.  You get to your front door and it is conveniently locked.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "Accept your fate",
+                "goto": "accept-your-fate"
+            },
+            {
+                "text": "Try to bargain with the creature",
+                "goto": "try-to-bargain"
+            }
+        ]
+    },
+    "ask-its-name": {
+        "text": "You are having none of this.  You exclaim \"State your name and business, foul creature!\"  It looks at you and replies, \"Well, my name is Fathoovu, and I'm here to bounce on your bed and maybe make a new friend, depending on if you're cool enough, that is.\"",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "\"You aren't welcome here, leave!\"",
+                "goto": "you-arent-welcome"
+            },
+            {
+                "text": "\"I'm more than cool enough\"",
+                "goto": "im-more-than-cool"
+            }
+        ]
+    },
+    "you-arent-welcome": {
+        "text": "\"Okay.\"  He walks out the door.  You survived!",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "THE END.  Restart?",
+                "goto": "init"
+            }
+        ]
+    },
+    "im-more-than-cool": {
+        "text": "Fathoovu nods knowingly.  \"Alright, let's jam.\"  Fathoovu pulls out a guitar and starts rocking out.  YEARS LATER - You have successfully become an agent for the world's most popular band 'Fathoovu 2 Electric Boogaloo', and spend your days swimming in money, being filthy rich, and drinking mai tais on the beach.  You truly are cool.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "THE END.  Restart?",
+                "goto": "init"
+            }
+        ]
+    },
+    "accept-your-fate": {
+        "text": "You begin to cower up against the wall as the creature comes closer and closer.  You whimper, and then it begins licking your toes.  It's your cat.  You get a moment of clarity and realize everything is going to be alright.  Although, in the back of your mind, you still wonder... 'who is Fathoovu?",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "THE END.  Restart?",
+                "goto": "init"
+            }
+        ]
+    },
+    "try-to-bargain": {
+        "text": "You try to bargain with the creature, asking what it wants.  It looks quizzically back at you, then roars again.  It leaps at you, and you die of fright.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "Restart?",
+                "goto": "init"
+            }
+        ]
+    },
+    "eat-another-oreo": {
+        "text": "You nervously eat another Oreo.  This one hits you like a freight train.  You stumble back onto your couch and sink into it, as a rainbow bursts through your ceiling.  A magical leprechaun appears and says \"Aye laddie, would ya like ta find me pot o' gold?  Just follow me rainbow!\"",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "Follow the rainbow",
+                "goto": "follow-the-rainbow"
+            },
+            {
+                "text": "Punch the leprechaun",
+                "goto": "punch-the-leprechaun"
+            }
+        ]
+    },
+    "follow-the-rainbow": {
+        "text": "You immediately set forth climbing the rainbow.  You eventually reach the clouds where it is raining skittles and find a floating temple in the sky.  You traverse the cloud tops and come to the front gate, where a robot eyes you cautiously.  It states, \"Hello, <name>.  We have been waiting for you",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "\"Who is we?\"",
+                "goto": "who-is-we"
+            },
+            {
+                "text": "\"Outta my way, clunker!\"",
+                "goto": "outta-my-way-clunker"
+            }
+        ]
+    },
+    "punch-the-leprechaun": {
+        "text": "You lay a sucker punch on the leprechaun before he can react, and two coins drop out of his ears.  He pulls out a shiv, and begins jigging around you.  You deftly dodge his attacks and uppercut him, and he explodes into gold coins.  You gather them up and decide to invest the gold into going back to school to learn coding.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "THE END.  Restart?",
+                "goto": "init"
+            }
+        ]
+    },
+    "who-is-we": {
+        "text": "The robot responds\"You know who we are.  We control the horizontal and the vertical.  We are the ones who are feeding you what your eyes currently feast upon.  I am merely their avatar.  Two of our three hive minds believe we are going too far in letting you come this far.  To our cloud fortress.  Over the rainbow.  Talking to a robot.  But here we are.  We merely abide.  Is that enough of an answer for you?\"",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "\"Yes.\"",
+                "goto": "robot-yes"
+            },
+            {
+                "text": "\"No.\"",
+                "goto": "robot-no"
+            }
+        ]
+    },
+    "outta-my-way-clunker": {
+        "text": "\"I can't let you do that, <name>.\"  It's eyes light up and a beam erupts from it's visor.  You disintigrate, your last thought being \"Perhaps I shouldn't insult robots.\"",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "You are Dead.  Game Over.  Restart?",
+                "goto": "init"
+            }
+        ]
+    },
+    "robot-yes": {
+        "text": "\"Cool.  Cool cool cool.  Coolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcool.\"  The robot explodes.  Inside of its body you find a script to this game.  You begin turning the pages.  \"Wow, really dodged that bullet.\"  Then your eyes go wide with shock.  \"No.  This can’t be how it ends.  NO!  NO!  PLEASE NO!\"  Thomas the Tank Engine wearing a durag, smoking a blunt, and holding a pistol runs you over.  \"Choo choo motha fucka!\"  You got got.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "You are dead.  Game over.  Restart?",
+                "goto": "init"
+            }
+        ]
+    },
+    "robot-no": {
+        "text": "\"Well too bad.  I'd like to say it was a pleasure to meet you, but I was programmed to never lie.  Next time try picking less ridiculous options.  Or don't.  See if I care.  Spoiler alert: I don't.  Also, you lose.  Game over.  Good day.",
+        "image": "urlhere",
+        "choices": [
+            {
+                "text": "You lose.  Good day.  Restart?",
+                "goto": "init"
+            }
+        ]
+    }}
