@@ -14,7 +14,7 @@ const styles = theme => ({
 });
 
 export class ContainedButtons extends Component {
-    render() {
+    render = () => {
         const { classes } = this.props;
         return (
             <div data-goto={this.props.goto}>

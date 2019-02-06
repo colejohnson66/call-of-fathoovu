@@ -15,7 +15,7 @@ class App extends Component {
 
     handleClick = (e) => {
         // e.target is the clicked element
-        let goto = e.target.parentNode.parentNode.getAttribute("data-goto");
+        let goto = e.target.closest("div").getAttribute("data-goto");
 
         // Ask for name again
         if (goto === "init")
@@ -38,7 +38,7 @@ class App extends Component {
         );
     }
 
-    render() {
+    render = () => {
         let noStyle = {};
         let hiddenStyle = {
             display: "none"
