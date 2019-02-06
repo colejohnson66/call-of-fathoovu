@@ -21,30 +21,28 @@ export class ChoiceButtons extends Component {
                 <div>
                     <Button href="#text-buttons" className={classes.button}>
                         Link
-      </Button>
+                    </Button>
                     <input
                         accept="image/*"
                         className={classes.input}
                         id="text-button-file"
                         multiple
-                        type="file"
-                    />
+                        type="file" />
                     <label htmlFor="text-button-file">
                         <Button component="span" className={classes.button}>
                             Upload
-        </Button>
+                        </Button>
                     </label>
                 </div>
-            )
-        }
-        )}
+            );
+        });
+    }
 }
 
 
 
-TextButtons.propTypes = {
+ChoiceButtons.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default ChoiceButtons
-export default withStyles(styles)(TextButtons);
+export default withStyles(styles)(ChoiceButtons);
