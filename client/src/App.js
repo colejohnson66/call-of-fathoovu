@@ -15,7 +15,7 @@ class App extends Component {
 
     handleClick = (e) => {
         // e.target is the clicked element
-        let goto = e.target.parentNode.getAttribute("data-goto");
+        let goto = e.target.closest("div").getAttribute("data-goto");
         this.setState({
             storyEntry: storyEntries[goto]
         });
@@ -33,7 +33,7 @@ class App extends Component {
         );
     }
 
-    render() {
+    render = () => {
         let noStyle = {};
         let hiddenStyle = {
             display: "none"
