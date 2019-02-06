@@ -54,7 +54,7 @@ class App extends Component {
                 </div>
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
                     <div className="storyText">
-                        {this.state.storyEntry.text}
+                        {this.state.storyEntry.text.replace("<name>", this.state.name)}
                     </div>
                     <div className="image">
                         <img src={this.state.storyEntry.img} alt="" />
