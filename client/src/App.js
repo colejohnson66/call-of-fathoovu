@@ -15,7 +15,12 @@ class App extends Component {
 
     handleClick = (e) => {
         // e.target is the clicked element
-        let goto = e.target.parentNode.getAttribute("data-goto");
+        let goto = e.target.parentNode.parentNode.getAttribute("data-goto");
+
+        // Ask for name again
+        if (goto === "init")
+            this.setState({ name: "" });
+
         this.setState({
             storyEntry: storyEntries[goto]
         });
@@ -29,7 +34,7 @@ class App extends Component {
 
     getButtons = () => {
         return this.state.storyEntry.choices.map((choice, i) =>
-            <ContainedButtons key={i} onClick={this.handleClick} goto={choice.goto} text={choice.text}/>
+            <ContainedButtons key={i} onClick={this.handleClick} goto={choice.goto} text={choice.text} />
         );
     }
 
