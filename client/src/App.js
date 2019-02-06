@@ -2,10 +2,8 @@ import "./App.css";
 
 import React, { Component } from "react";
 
+import StoryText from "./components/layout/StoryText";
 import storyEntries from "./storyEntries.json";
-
-//import StoryText from "./components/layout/StoryText";
-
 
 class App extends Component {
     state = {
@@ -53,9 +51,7 @@ class App extends Component {
                     </div>
                 </div>
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
-                    <div className="storyText">
-                        {this.state.storyEntry.text.replace("<name>", this.state.name)}
-                    </div>
+                    <StoryText text={this.state.storyEntry.text.replace("<name>", this.state.name)} />
                     <div className="image">
                         <img src={this.state.storyEntry.img} alt="" />
                     </div>
