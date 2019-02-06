@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 
 export class StoryText extends Component {
-  render() {
-    return (
-      <div>
-        <h3>{ this.props.text[i] }</h3>
-      </div>
-    )
-  }
+    render() {
+        return (
+            <h3>{this.props.text}</h3>
+        )
+    }
 }
 
 export default StoryText
