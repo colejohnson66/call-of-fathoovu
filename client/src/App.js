@@ -2,6 +2,7 @@ import "./App.css";
 
 import React, { Component } from "react";
 
+import Image from "./components/layout/Image";
 import StoryText from "./components/layout/StoryText";
 import storyEntries from "./storyEntries.json";
 
@@ -40,9 +41,7 @@ class App extends Component {
             <div>
                 <div style={this.state.name === "" ? noStyle : hiddenStyle}>
                     <h1>The Call of Fathoovu</h1>
-                    <div className="image">
-                        <img src="/img/home.jpg" alt="" />
-                    </div>
+                    <Image src="/img/home.jpg" />
                     <div className="nameInputDiv">
                         <input type="text" name="name" id="nameInput" />
                     </div>
@@ -52,9 +51,7 @@ class App extends Component {
                 </div>
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
                     <StoryText text={this.state.storyEntry.text.replace("<name>", this.state.name)} />
-                    <div className="image">
-                        <img src={this.state.storyEntry.img} alt="" />
-                    </div>
+                    <Image src={this.state.storyEntry.img} />
                     <div className="optionsDiv">
                         {this.getButtons()}
                     </div>
