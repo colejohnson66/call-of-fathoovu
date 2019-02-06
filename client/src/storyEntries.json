@@ -172,7 +172,7 @@
         ]
     },
     "follow-the-rainbow": {
-        "text": "You immediately set forth climbing the rainbow.  You eventually reach the clouds where it is raining skittles and find a floating temple in the sky.  You traverse the cloud tops and come to the front gate, where a robot eyes you cautiously.  It states, \"Hello, <name>.  We have been waiting for you",
+        "text": "You immediately set forth climbing the rainbow.  You eventually reach the clouds where it is raining skittles and find a floating temple in the sky.  You traverse the cloud tops and come to the front gate, where a robot eyes you cautiously.  It states, \"Hello, <name>.  We have been waiting for you.\"",
         "image": "urlhere",
         "choices": [
             {
@@ -238,4 +238,5 @@
                 "goto": "init"
             }
         ]
-    }}
+    }
+}

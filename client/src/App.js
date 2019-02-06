@@ -2,6 +2,7 @@ import "./App.css";
 
 import React, { Component } from "react";
 
+import ContainedButtons from "./components/layout/ContainedButtons";
 import Image from "./components/layout/Image";
 import StoryText from "./components/layout/StoryText";
 import storyEntries from "./storyEntries.json";
@@ -14,7 +15,12 @@ class App extends Component {
 
     handleClick = (e) => {
         // e.target is the clicked element
-        let goto = e.target.getAttribute("data-goto");
+        let goto = e.target.closest("div").getAttribute("data-goto");
+
+        // Ask for name again
+        if (goto === "init")
+            this.setState({ name: "" });
+
         this.setState({
             storyEntry: storyEntries[goto]
         });
@@ -28,11 +34,11 @@ class App extends Component {
 
     getButtons = () => {
         return this.state.storyEntry.choices.map((choice, i) =>
-            <button key={i} onClick={this.handleClick} data-goto={choice.goto}>{choice.text}</button>
+            <ContainedButtons key={i} onClick={this.handleClick} goto={choice.goto} text={choice.text} />
         );
     }
 
-    render() {
+    render = () => {
         let noStyle = {};
         let hiddenStyle = {
             display: "none"
