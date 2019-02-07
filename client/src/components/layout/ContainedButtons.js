@@ -14,14 +14,15 @@ const styles = theme => ({
 });
 
 export class ContainedButtons extends Component {
+    handleClick = () => {
+        this.props.onClick(this.props.goto);
+    }
+
     render = () => {
-        const { classes } = this.props;
         return (
-            <div data-goto={this.props.goto}>
-                <Button variant="contained" href="#text-buttons" className={classes.button} onClick={this.props.onClick}>
-                    {this.props.text}
-                </Button>
-            </div>
+            <Button variant="contained" href="#" className={this.props.classes.button} onClick={this.handleClick}>
+                {this.props.text}
+            </Button>
         );
     }
 }

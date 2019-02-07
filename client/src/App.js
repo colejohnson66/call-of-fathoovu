@@ -16,10 +16,8 @@ class App extends Component {
         storyEntry: storyEntries["init"]
     };
 
-    handleClick = (e) => {
-        // e.target is the clicked element
-        let goto = e.target.closest("div").getAttribute("data-goto");
-
+    handleButtonClick = (goto) => {
+        console.log(goto);
         // Ask for name again
         if (goto === "init")
             this.setState({ name: "" });
@@ -37,7 +35,7 @@ class App extends Component {
 
     getButtons = () => {
         return this.state.storyEntry.choices.map((choice, i) =>
-            <ContainedButtons key={i} onClick={this.handleClick} goto={choice.goto} text={choice.text} />
+            <ContainedButtons key={i} onClick={this.handleButtonClick} goto={choice.goto} text={choice.text} />
         );
     }
 
