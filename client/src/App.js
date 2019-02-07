@@ -56,7 +56,7 @@ class App extends Component {
                 </div>
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
                     <StoryText text={this.state.storyEntry.text.replace("<name>", this.state.name)} />
-                    <Image src={this.state.storyEntry.img} />
+                    <Image src={this.state.storyEntry.image} />
                     <div className="optionsDiv">
                         {this.getButtons()}
                     </div>
