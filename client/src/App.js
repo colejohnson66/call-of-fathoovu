@@ -2,8 +2,11 @@ import "./App.css";
 
 import React, { Component } from "react";
 
+import Button from "@material-ui/core/Button";
 import ContainedButtons from "./components/layout/ContainedButtons";
 import Image from "./components/layout/Image";
+import { Input } from "@material-ui/core";
+import InputField from "./components/layout/InputField";
 import StoryText from "./components/layout/StoryText";
 import storyEntries from "./storyEntries.json";
 
@@ -48,12 +51,8 @@ class App extends Component {
                 <div style={this.state.name === "" ? noStyle : hiddenStyle}>
                     <h1>The Call of Fathoovu</h1>
                     <Image src="/img/home.jpg" />
-                    <div className="nameInputDiv">
-                        <input type="text" name="name" id="nameInput" />
-                    </div>
-                    <div className="nameButtonDiv">
-                        <button onClick={this.handleNameButtonClick}>Get your Fathoovu on</button>
-                    </div>
+                    <InputField id="nameInput" />
+                    <Button onClick={this.handleNameButtonClick}>Get your Fathoovu on</Button>
                 </div>
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
                     <StoryText text={this.state.storyEntry.text.replace("<name>", this.state.name)} />
