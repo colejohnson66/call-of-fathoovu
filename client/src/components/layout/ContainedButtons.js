@@ -19,9 +19,8 @@ export class ContainedButtons extends Component {
     }
 
     render = () => {
-        const { classes } = this.props;
         return (
-            <Button variant="contained" href="#text-buttons" className={classes.button} onClick={this.handleClick}>
+            <Button variant="contained" href="#" className={this.props.classes.button} onClick={this.handleClick}>
                 {this.props.text}
             </Button>
         );
