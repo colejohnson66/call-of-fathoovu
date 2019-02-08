@@ -13,7 +13,7 @@ class NameInput extends Component {
         return (
             <div>
                 <h1>The Call of Fathoovu</h1>
-                <Image src="/img/home.jpg" />
+                <Image src="/images/fathoovulogo.png" />
                 <InputField id="nameInput" />
                 <Button onClick={this.handleNameButtonClick}>Get your Fathoovu on</Button>
             </div>
