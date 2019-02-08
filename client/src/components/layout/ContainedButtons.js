@@ -15,11 +15,15 @@ const styles = theme => ({
 });
 
 export class ContainedButtons extends Component {
+    setGoto = () => {
+        this.props.setGoto(this.props.goto);
+    }
+
     render = () => {
         const { classes } = this.props;
         return (
-            <div data-goto={this.props.goto}>
-                <Button variant="contained" href="#text-buttons" className={classes.button} onClick={this.props.onClick}>
+            <div>
+                <Button variant="contained" href="#text-buttons" className={classes.button} onClick={this.setGoto}>
                     {this.props.text}
                 </Button>
             </div>

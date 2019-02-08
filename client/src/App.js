@@ -14,7 +14,7 @@ class App extends Component {
         storyEntry: storyEntries["init"]
     };
 
-    handleButtonClick = (goto) => {
+    setStoryEntry = (goto) => {
         console.log(goto);
         // Ask for name again
         if (goto === "init")
@@ -33,7 +33,7 @@ class App extends Component {
 
     getButtons = () => {
         return this.state.storyEntry.choices.map((choice, i) =>
-            <ContainedButtons key={i} onClick={this.handleButtonClick} goto={choice.goto} text={choice.text} />
+            <ContainedButtons key={i} setGoto={this.setStoryEntry} goto={choice.goto} text={choice.text} />
         );
     }
 
