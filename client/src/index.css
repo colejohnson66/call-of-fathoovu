@@ -1,5 +1,25 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.imageContainer {
+    border: 115px solid transparent;
+    -webkit-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
+    -o-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
+}
+
+.imageContainer h3 {
+    background-color: rgba(255,255,255,0.85);
+}
+
+img {
+    position: relative;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.optionsDiv {
+    text-align: center;
 }

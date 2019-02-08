@@ -1,21 +1,64 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
+import React, { Component } from "react";
+
+import ContainedButtons from "./components/layout/ContainedButtons";
+import Image from "./components/layout/Image";
+import NameInput from "./components/layout/NameInput";
+import StoryText from "./components/layout/StoryText";
+import storyEntries from "./storyEntries.json";
+
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+    state = {
+        name: "",
+        storyEntry: storyEntries["init"]
+    };
+
+    handleButtonClick = (goto) => {
+        console.log(goto);
+        // Ask for name again
+        if (goto === "init")
+            this.setState({ name: "" });
+
+        this.setState({
+            storyEntry: storyEntries[goto]
+        });
+    }
+
+    setName = (name) => {
+        this.setState({
+            name: name
+        });
+    }
+
+    getButtons = () => {
+        return this.state.storyEntry.choices.map((choice, i) =>
+            <ContainedButtons key={i} onClick={this.handleButtonClick} goto={choice.goto} text={choice.text} />
+        );
+    }
+
+    render = () => {
+        let noStyle = {};
+        let hiddenStyle = {
+            display: "none"
+        };
+        return (
+            <div>
+                <div style={this.state.name === "" ? noStyle : hiddenStyle}>
+                    <NameInput setName={this.setName} />
+                </div>
+                <div style={this.state.name === "" ? hiddenStyle : noStyle}>
+                    <div className="imageContainer">
+                        <StoryText text={this.state.storyEntry.text.replace("<name>", this.state.name)} />
+                        <Image src={this.state.storyEntry.image} />
+                        <div className="optionsDiv">
+                            {this.getButtons()}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;
