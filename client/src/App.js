@@ -83,7 +83,7 @@ class App extends Component {
                         </div>
                     </div>
                 </div>
-                <img src="https://creamdreamextremeteam.github.io/MissionNutrition/assets/images/MIC.gif" id="tc" style={tcStyle} />
+                <img src="https://creamdreamextremeteam.github.io/MissionNutrition/assets/images/MIC.gif" id="tc" style={tcStyle} alt="" />
             </div>
         );
     }
