@@ -2,6 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background-color: black;
+}
+
+.height100 {
+    height:100%;
 }
 
 .imageContainer {
@@ -16,10 +21,29 @@ body {
 
 img {
     position: relative;
-    width: 100%;
+    margin: 3% 2% -50px 11%;
+    width: 80%;
     border-radius: 5%;
 }
 
 .optionsDiv {
     text-align: center;
+}
+
+.optionsDiv div {
+    display: inline;
+}
+
+.inputs {
+    text-align: center;
+    position: relative;
+    top: -64px;
+}
+
+#titlebutton{
+    background-color: white;
+}
+
+#nameInput {
+    background-color: white;
 }

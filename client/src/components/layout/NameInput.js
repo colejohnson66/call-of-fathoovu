@@ -12,10 +12,12 @@ class NameInput extends Component {
     render() {
         return (
             <div>
-                <h1>The Call of Fathoovu</h1>
-                <Image src="/img/home.jpg" />
+                <Image src="/images/fathoovulogo.png" />
+                <div className="inputs">
                 <InputField id="nameInput" />
-                <Button onClick={this.handleNameButtonClick}>Get your Fathoovu on</Button>
+                <br />
+                <Button id="titlebutton" onClick={this.handleNameButtonClick}>BEGIN</Button>
+                </div>
             </div>
         );
     }
