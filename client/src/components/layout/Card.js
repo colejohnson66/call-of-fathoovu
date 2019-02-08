@@ -11,7 +11,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   card: {
-    maxWidth: 345,
+    maxWidth: "100%",
   },
   media: {
     // ⚠️ object-fit is not supported by IE 11.
