@@ -11,3 +11,8 @@ body {
     border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
 
 }
+
+img {
+    position: relative;
+    width: 100%;
+}

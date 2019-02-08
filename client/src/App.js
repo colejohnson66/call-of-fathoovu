@@ -53,12 +53,12 @@ class App extends Component {
                     <Button onClick={this.handleNameButtonClick}>Get your Fathoovu on</Button>
                 </div>
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
+                <div className="imageContainer">
                     <StoryText text={this.state.storyEntry.text.replace("<name>", this.state.name)} />
-                    <div className="imageContainer">
                     <Image src={this.state.storyEntry.image} />
-                    </div>
                     <div className="optionsDiv">
                         {this.getButtons()}
+                    </div>
                     </div>
                 </div>
             </div>
