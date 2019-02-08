@@ -31,6 +31,7 @@ class App extends Component {
         this.setState({
             name: document.getElementById("nameInput").value
         });
+        document.getElementById("nameInput").value = ""; // clear it
     }
 
     getButtons = () => {
@@ -53,12 +54,12 @@ class App extends Component {
                     <Button onClick={this.handleNameButtonClick}>Get your Fathoovu on</Button>
                 </div>
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
-                <div className="imageContainer">
-                    <StoryText text={this.state.storyEntry.text.replace("<name>", this.state.name)} />
-                    <Image src={this.state.storyEntry.image} />
-                    <div className="optionsDiv">
-                        {this.getButtons()}
-                    </div>
+                    <div className="imageContainer">
+                        <StoryText text={this.state.storyEntry.text.replace("<name>", this.state.name)} />
+                        <Image src={this.state.storyEntry.image} />
+                        <div className="optionsDiv">
+                            {this.getButtons()}
+                        </div>
                     </div>
                 </div>
             </div>
