@@ -43,7 +43,7 @@ class App extends Component {
             display: "none"
         };
         return (
-            <div>
+            <div className="height100">
                 <div style={this.state.name === "" ? noStyle : hiddenStyle}>
                     <NameInput setName={this.setName} />
                 </div>
