@@ -3,3 +3,11 @@ body {
     padding: 0;
     font-family: sans-serif;
 }
+
+.imageContainer {
+    border: 115px solid transparent;
+    -webkit-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
+    -o-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
+    border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
+
+}
