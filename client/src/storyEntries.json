@@ -738,7 +738,7 @@
         ]
     },
     "answer-the-phone": {
-        "text": "You pick up the phone.  “Hello?”",
+        "text": "You pick up the phone.  \"Hello?\"",
         "image": "../images/494.jpg",
         "choices": [
             {
@@ -842,7 +842,7 @@
         ]
     },
     "pray-to-fathoovu": {
-        "text": "You don’t know what comes over you, but you can only think about praying to this mysterious Fathoovu in hopes that it can spare your life.  “Please, I’ll do anything.  Just let me live.”",
+        "text": "You don’t know what comes over you, but you can only think about praying to this mysterious Fathoovu in hopes that it can spare your life.  \"Please, I’ll do anything.  Just let me live.\"",
         "image": "../images/514.jpg",
         "choices": [
             {
@@ -1018,7 +1018,7 @@
         ]
     },
     "worship-fathoovu2": {
-        "text": "A cultist in a robe enters your room, holding a candle.  “Come with me.”",
+        "text": "A cultist in a robe enters your room, holding a candle.  \"Come with me.\"",
         "image": "../images/543.jpg",
         "choices": [
             {
@@ -1028,21 +1028,21 @@
         ]
     },
     "worship-fathoovu3": {
-        "text": "He leads you to your living room and sits across from you.  “You will serve your new master well.”",
+        "text": "He leads you to your living room and sits across from you.  \"You will serve your new master well.\"",
         "image": "../images/572.jpg",
         "choices": [
             {
-                "text": "“I obey.”",
+                "text": "\"I obey.\"",
                 "goto": "i-obey"
             }
         ]
     },
     "i-obey": {
-        "text": "\"You will no longer need your eyes.  The master already sees all.”",
+        "text": "\"You will no longer need your eyes.  The master already sees all.\"",
         "image": "../images/572.jpg",
         "choices": [
             {
-                "text": "“His will be done.”",
+                "text": "\"His will be done.\"",
                 "goto": "his-will-be-done"
             }
         ]
@@ -1098,11 +1098,11 @@
         ]
     },
     "no-its-not": {
-        "text": "“Excuse me?”",
+        "text": "\"Excuse me?\"",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
-                "text": "“You heard me.”  ",
+                "text": "\"You heard me.\"",
                 "goto": "you-heard-me"
             },
             {
@@ -1112,7 +1112,7 @@
         ]
     },
     "you-heard-me": {
-        "text": "“My mistake.  I apologize.”  It disappears off your screen and you spend the rest of your day wondering how it could have made such a simple mistake of thinking your soul was his.  You drink a cup of coffee later in the day, and that’s about as exciting as your day gets.",
+        "text": "\"My mistake.  I apologize.\"  It disappears off your screen and you spend the rest of your day wondering how it could have made such a simple mistake of thinking your soul was his.  You drink a cup of coffee later in the day, and that’s about as exciting as your day gets.",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
@@ -1160,7 +1160,7 @@
                 "goto": "hurl-a-book-at-him"
             },
             {
-                "text": "“What do you want with me?”",
+                "text": "\"What do you want with me?\"",
                 "goto": "what-do-you-want-with-me"
             }
         ]
@@ -1174,7 +1174,7 @@
                 "goto": "slam-your-laptop-shut"
             },
             {
-                "text": "“Hey, have you heard of updog?”",
+                "text": "\"Hey, have you heard of updog?\"",
                 "goto": "updog"
             }
         ]
@@ -1190,39 +1190,39 @@
         ]
     },
     "updog": {
-        "text": "The creature looks confused and cocks its head to the side.  … “What’s updog?”  “Not much, you?” … “Funny.  Funny joke.  You are a jokester.  I like jokes.”",
+        "text": "The creature looks confused and cocks its head to the side.  … \"What’s updog?\"  \"Not much, you?\" … \"Funny.  Funny joke.  You are a jokester.  I like jokes.\"",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
-                "text": "“Yeah it’s a good one.  Want to be friends?”",
+                "text": "\"Yeah it’s a good one.  Want to be friends?\"",
                 "goto": "yeah-its-a-good-one"
             },
             {
-                "text": "“Your face is a joke.”",
+                "text": "\"Your face is a joke.\"",
                 "goto": "your-face-is-a-joke"
             },
             {
-                "text": "“This is ridiculous and I want nothing more to do with this charade of a game.”",
+                "text": "\"This is ridiculous and I want nothing more to do with this charade of a game.\"",
                 "goto": "this-is-ridiculous"
             }
         ]
     },
     "yeah-its-a-good-one": {
-        "text": "“No, but let's get married.”",
+        "text": "\"No, but let's get married.\"",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
-                "text": "“Okay.” ",
+                "text": "\"Okay.\" ",
                 "goto": "okay"
             },
             {
-                "text": "“Yes.”",
+                "text": "\"Yes.\"",
                 "goto": "okay"
             }
         ]
     },
     "your-face-is-a-joke": {
-        "text": "“The only joke here is your continued existence.”  It snaps its fingers, and you disappear to a room of pure white.  You try to scream, but you make no sound.  You cannot move.  You just float there.  Forever.",
+        "text": "\"The only joke here is your continued existence.\"  It snaps its fingers, and you disappear to a room of pure white.  You try to scream, but you make no sound.  You cannot move.  You just float there.  Forever.",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
@@ -1232,7 +1232,7 @@
         ]
     },
     "this-is-ridiculous": {
-        "text": "“Same.”",
+        "text": "\"Same.\"",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
@@ -1266,7 +1266,7 @@
         ]
     },
     "what-do-you-want-with-me": {
-        "text": "The maniac responds, “I can’t let him have you.  If you knew more, you would be thanking me.”  He lunges towards you, but slips on a rag on the floor and falls to the ground.  Motionless.  … …  ",
+        "text": "The maniac responds, \"I can’t let him have you.  If you knew more, you would be thanking me.\"  He lunges towards you, but slips on a rag on the floor and falls to the ground.  Motionless.  … …  ",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
@@ -1290,7 +1290,7 @@
         ]
     },
     "kick-the-knife": {
-        "text": "You kick the knife away from him, knowing that if he regains consciousness he could attack you again at any given moment.  Turning around, you find that the man is already gone.   You slowly peer around the corner, when you hear a deep breath right behind you.  You turn around, and he is face to face with you.  “I’m sorry, but I can’t let him have you.”",
+        "text": "You kick the knife away from him, knowing that if he regains consciousness he could attack you again at any given moment.  Turning around, you find that the man is already gone.   You slowly peer around the corner, when you hear a deep breath right behind you.  You turn around, and he is face to face with you.  \"I’m sorry, but I can’t let him have you.\"",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
@@ -1300,7 +1300,7 @@
         ]
     },
     "hurl-another-book": {
-        "text": "Dad taught you if at first you don’t succeed, try, try again.  So you throw another book.  And another.  Then a fourth book, and it explodes and breaks the screen.  The killer says “Dude, I think you broke the game.” ",
+        "text": "Dad taught you if at first you don’t succeed, try, try again.  So you throw another book.  And another.  Then a fourth book, and it explodes and breaks the screen.  The killer says \"Dude, I think you broke the game.\" ",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
@@ -1310,7 +1310,7 @@
         ]
     },
     "jump-out-your-window": {
-        "text": "Screw this.  You jump out your window, deciding it’s better to take your chances with gravity than against a knife wielding maniac.  As soon as you break the glass however, you recall you’re on the 10th floor of your building, and that probably wasn’t the smartest idea.  Right before you hit the ground you think, “I hope I cleared my browser history.”",
+        "text": "Screw this.  You jump out your window, deciding it’s better to take your chances with gravity than against a knife wielding maniac.  As soon as you break the glass however, you recall you’re on the 10th floor of your building, and that probably wasn’t the smartest idea.  Right before you hit the ground you think, \"I hope I cleared my browser history.\"",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
