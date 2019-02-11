@@ -9,6 +9,10 @@ body {
     height:100%;
 }
 
+.mainContainer {
+    max-width: 100%;
+}
+
 .imageContainer {
     border: 115px solid transparent;
     -webkit-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
@@ -37,7 +41,7 @@ img {
 .inputs {
     text-align: center;
     position: relative;
-    top: -64px;
+    top: -40px;
 }
 
 #titlebutton{
@@ -45,5 +49,9 @@ img {
 }
 
 #nameInput {
+    background-color: white;
+}
+
+#password {
     background-color: white;
 }

@@ -5,7 +5,6 @@ import Image from ".././components/layout/Image";
 import NameInput from ".././components/layout/NameInput";
 import StoryText from ".././components/layout/StoryText";
 import api from "../api";
-import storyEntries from ".././storyEntries.json";
 
 class Home extends Component {
     state = {
@@ -19,7 +18,8 @@ class Home extends Component {
                     "text": "Continue...",
                     "goto": "init2"
                 }
-            ]
+            ],
+        password: ""
         }
     };
 
@@ -36,7 +36,7 @@ class Home extends Component {
         console.log(goto);
         // Ask for name again
         if (goto === "init")
-            this.setState({ name: "" });
+            this.setState({ name: "", password: "" });
 
         if (goto === "call-tc") {
             let img = document.getElementById("tc");
@@ -71,6 +71,12 @@ class Home extends Component {
         });
     }
 
+    setPassword = (password) => {
+        this.setState({
+            password: password
+        });
+    }
+
     getButtons = () => {
         return this.state.story.choices.map((choice, i) =>
             <ContainedButtons key={i} setGoto={this.setStoryEntry} goto={choice.goto} text={choice.text} />
@@ -101,7 +107,7 @@ class Home extends Component {
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
                     <div className="imageContainer">
                         <StoryText text={this.state.story.text.replace("<name>", this.state.name)} />
-                        <Image src={this.state.story.image} />
+                        <Image src={this.state.story.imagePath} />
                         <div className="optionsDiv">
                             {this.getButtons()}
                         </div>
