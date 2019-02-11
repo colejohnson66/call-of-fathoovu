@@ -1,5 +1,6 @@
 {
     "init": {
+        "note": "WHEN UPDATING THIS PATH, UPDATE IN /client/src/paths/Home.js",
         "text": "It is an average Friday night.  You are at home, sitting through a dark and stormy night...",
         "image": "../images/013.jpg",
         "choices": [

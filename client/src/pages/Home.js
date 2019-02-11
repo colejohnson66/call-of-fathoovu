@@ -1,16 +1,36 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 import ContainedButtons from ".././components/layout/ContainedButtons";
 import Image from ".././components/layout/Image";
 import NameInput from ".././components/layout/NameInput";
 import StoryText from ".././components/layout/StoryText";
+import api from "../api";
 import storyEntries from ".././storyEntries.json";
 
 class Home extends Component {
     state = {
         name: "",
-        storyEntry: storyEntries["init"]
+        story: {
+            //path: "init",
+            text: "It is an average Friday night.  You are at home, sitting through a dark and stormy night...",
+            image: "../images/013.jpg",
+            choices: [
+                {
+                    "text": "Continue...",
+                    "goto": "init2"
+                }
+            ]
+        }
     };
+
+    componentDidMount = () => {
+        api.stories.getByPath("init").then((data) => {
+            console.log(data[0]);
+            this.setState({
+                story: data[0]
+            });
+        });
+    }
 
     setStoryEntry = (goto) => {
         console.log(goto);
@@ -36,8 +56,12 @@ class Home extends Component {
             }, 15 * 1000);
         }
 
-        this.setState({
-            storyEntry: storyEntries[goto]
+        // get new story
+        api.stories.getByPath(goto).then((data) => {
+            console.log(data[0]);
+            this.setState({
+                story: data[0]
+            });
         });
     }
 
@@ -48,7 +72,7 @@ class Home extends Component {
     }
 
     getButtons = () => {
-        return this.state.storyEntry.choices.map((choice, i) =>
+        return this.state.story.choices.map((choice, i) =>
             <ContainedButtons key={i} setGoto={this.setStoryEntry} goto={choice.goto} text={choice.text} />
         );
     }
@@ -67,6 +91,8 @@ class Home extends Component {
             visibility: "hidden"
         };
 
+        console.log(this.state.story);
+
         return (
             <div className="height100">
                 <div style={this.state.name === "" ? noStyle : hiddenStyle}>
@@ -74,8 +100,8 @@ class Home extends Component {
                 </div>
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
                     <div className="imageContainer">
-                        <StoryText text={this.state.storyEntry.text.replace("<name>", this.state.name)} />
-                        <Image src={this.state.storyEntry.image} />
+                        <StoryText text={this.state.story.text.replace("<name>", this.state.name)} />
+                        <Image src={this.state.story.image} />
                         <div className="optionsDiv">
                             {this.getButtons()}
                         </div>

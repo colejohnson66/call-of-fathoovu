@@ -9,19 +9,15 @@ const morgan = require("morgan");
 const mongoose = require("mongoose");
 
 
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
+
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan("dev"));
 if (process.env.NODE_ENV === "production")
     app.use(express.static("client/build"));
-
-
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
-
-
-app.get("/api/story/:path", (req, res) => {
-
-});
+app.use("/api", require("./routes/api"));
 
 
 app.get("*", (req, res) => {
