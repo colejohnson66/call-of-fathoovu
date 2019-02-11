@@ -1,7 +1,27 @@
 {
     "init": {
-        "text": "It is an average Friday night.  You are at home, sitting through a dark and stormy night...  Lightning flashes and your power goes out.  Your phone begins ringing, from a caller named... FATHOOVU",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "It is an average Friday night.  You are at home, sitting through a dark and stormy night...",
+        "image": "../images/013.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "init2"
+            }
+        ]
+    },
+    "init2": {
+        "text": "Lightning flashes and your power goes out...",
+        "image": "../images/021.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "init3"
+            }
+        ]
+    },
+    "init3": {
+        "text": "Your phone begins ringing, from an unknown caller.",
+        "image": "../images/031.jpg",
         "choices": [
             {
                 "text": "Answer the call",
@@ -14,8 +34,18 @@
         ]
     },
     "eat-an-oreo": {
-        "text": "You savor the delicious treat.  It's flavor is incredible, and your phone eventually stops ringing.  You contemplate that this Oreo was perhaps too good, and you start seeing colors.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You savor the delicious treat.  It's flavor is incredible!",
+        "image": "../images/046.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "eat-an-oreo2"
+            }
+        ]
+    },
+    "eat-an-oreo2": {
+        "text": "You contemplate that this Oreo was perhaps too good, and you start seeing colors.",
+        "image": ".https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "Panic and drink water",
@@ -28,11 +58,51 @@
         ]
     },
     "panic-and-drink-water": {
-        "text": "You run into the bathroom and begin chugging water.  As you look up, you make the mistake of looking into the mirror, and instead of seeing yourself you see Fathoovu.  Fathoovu reaches through the mirror and kills you.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You run into the bathroom...",
+        "image": "../images/066.jpg",
         "choices": [
             {
-                "text": "Restart?",
+                "text": "Continue...",
+                "goto": "panic-and-drink-water2"
+            }
+        ]
+    },
+    "panic-and-drink-water2": {
+        "text": "...",
+        "image": "../images/067.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "panic-and-drink-water3"
+            }
+        ]
+    },
+    "panic-and-drink-water3": {
+        "text": "...",
+        "image": "../images/069.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "panic-and-drink-water4"
+            }
+        ]
+    },
+    "panic-and-drink-water4": {
+        "text": "...and begin chugging water.",
+        "image": "../images/071.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "panic-and-drink-water5"
+            }
+        ]
+    },
+    "panic-and-drink-water5": {
+        "text": "As you look up, you make the mistake of looking into the mirror, and instead of seeing yourself you see Fathoovu.  Fathoovu reaches through the mirror and kills you.",
+        "image": "../images/113.jpg",
+        "choices": [
+            {
+                "text": "YOU ARE DEAD.  Restart?",
                 "goto": "init"
             }
         ]
@@ -52,8 +122,28 @@
         ]
     },
     "investigate-the-noise": {
-        "text": "You go into your bathroom to find a broken bottle.  Strange wet hoof prints lead into your bathroom.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You go into your bathroom...",
+        "image": "../images/066.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "investigate-the-noise2"
+            }
+        ]
+    },
+    "investigate-the-noise2": {
+        "text": "...to find a broken bottle, one that doesn't even look real, on the floor.",
+        "image": "../images/164.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "investigate-the-noise3"
+            }
+        ]
+    },
+    "investigate-the-noise3": {
+        "text": "Strange wet hoof prints lead into your bedroom...",
+        "image": "../images/169.jpg",
         "choices": [
             {
                 "text": "Investigate further",
@@ -66,8 +156,28 @@
         ]
     },
     "investigate-further": {
-        "text": "You go into your bedroom and find a weird creature, Fathoovu, standing on your bed.  It immediately turns to you and glares into your eyes.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You go into your bedroom...",
+        "image": "../images/170.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "investigate-further2"
+            }
+        ]
+    },
+    "investigate-further2": {
+        "text": "...and find a weird creature, Fathoovu, standing on your bed. ",
+        "image": "../images/178.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "investigate-further3"
+            }
+        ]
+    },
+    "investigate-further3": {
+        "text": "It immediately turns to you and glares into your eyes.",
+        "image": "../images/183.jpg",
         "choices": [
             {
                 "text": "Run away",
@@ -80,18 +190,78 @@
         ]
     },
     "call-the-police": {
-        "text": "You pick up your phone and attempt to call the police.  Your phone is dead, however.  And so are you, as an arm reaches out of your phone and kills you.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You pick up your phone and attempt to call the police.",
+        "image": "../images/334.jpg",
         "choices": [
             {
-                "text": "Restart?",
+                "text": "Continue...",
+                "goto": "call-the-police2"
+            }
+        ]
+    },
+    "call-the-police2": {
+        "text": "Your phone is dead, however.  And so are you, as an arm reaches out of your phone and kills you.",
+        "image": "../images/357.jpg",
+        "choices": [
+            {
+                "text": "YOU ARE DEAD. Restart?",
                 "goto": "init"
             }
         ]
     },
     "run-away": {
-        "text": "You begin to run away as you hear stomps behind you and an unholy roar.  You get to your front door and it is conveniently locked.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You begin to run away as you hear stomps behind you and an unholy roar.",
+        "image": "../images/229.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "run-away2"
+            }
+        ]
+    },
+    "run-away2": {
+        "text": "...",
+        "image": "../images/231.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "run-away3"
+            }
+        ]
+    },
+    "run-away3": {
+        "text": "...You get to your front door and it is conveniently locked.",
+        "image": "../images/238.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "run-away4"
+            }
+        ]
+    },
+    "run-away4": {
+        "text": "...",
+        "image": "../images/290.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "run-away5"
+            }
+        ]
+    },
+    "run-away5": {
+        "text": "...",
+        "image": "../images/302.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "run-away6"
+            }
+        ]
+    },
+    "run-away6": {
+        "text": "...",
+        "image": "../images/316.jpg",
         "choices": [
             {
                 "text": "Accept your fate",
@@ -104,8 +274,18 @@
         ]
     },
     "ask-its-name": {
-        "text": "You are having none of this.  You exclaim \"State your name and business, foul creature!\"  It looks at you and replies, \"Well, my name is Fathoovu, and I'm here to bounce on your bed and maybe make a new friend, depending on if you're cool enough, that is.\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You are having none of this.  You exclaim \"State your name and business, foul creature!\"",
+        "image": "../images/187.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "ask-its-name2"
+            }
+        ]
+    },
+    "ask-its-name2": {
+        "text": "It looks at you and replies, \"Well, my name is Fathoovu, and I'm here to bounce on your bed and maybe make a new friend, depending on if you're cool enough, that is.\"",
+        "image": "../images/189.jpg",
         "choices": [
             {
                 "text": "\"You aren't welcome here, leave!\"",
@@ -118,8 +298,8 @@
         ]
     },
     "you-arent-welcome": {
-        "text": "\"Okay.\"  He walks out the door.  You survived!",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "\"Okay.\"  He walks out the door.  That was easy.  You survived!",
+        "image": "../images/206.jpg",
         "choices": [
             {
                 "text": "THE END.  Restart?",
@@ -128,8 +308,58 @@
         ]
     },
     "im-more-than-cool": {
-        "text": "Fathoovu nods knowingly.  \"Alright, let's jam.\"  Fathoovu pulls out a guitar and starts rocking out.  YEARS LATER - You have successfully become an agent for the world's most popular band 'Fathoovu 2 Electric Boogaloo', and spend your days swimming in money, being filthy rich, and drinking mai tais on the beach.  You truly are cool.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "Fathoovu nods knowingly.",
+        "image": "../images/217.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "im-more-than-cool2"
+            }
+        ]
+    },
+    "im-more-than-cool2": {
+        "text": "\"Alright, let's jam.\"",
+        "image": "../images/222.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "im-more-than-cool3"
+            }
+        ]
+    },
+    "im-more-than-cool3": {
+        "text": "Fathoovu pulls out a guitar and starts rocking out.",
+        "image": "../images/226.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "im-more-than-cool4"
+            }
+        ]
+    },
+    "im-more-than-cool4": {
+        "text": "YEARS LATER",
+        "image": "../images/years.png",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "im-more-than-cool5"
+            }
+        ]
+    },
+    "im-more-than-cool5": {
+        "text": "You have successfully become an agent for the world's most popular band 'Fathoovu 2 Electric Boogaloo', and spend your days swimming in money, being filthy rich...",
+        "image": "../images/electricboogaloo.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "im-more-than-cool6"
+            }
+        ]
+    },
+    "im-more-than-cool6": {
+        "text": "...and drinking mai tais on the beach.  You truly are cool.",
+        "image": "../images/mai-tais.jpg",
         "choices": [
             {
                 "text": "THE END.  Restart?",
@@ -138,18 +368,38 @@
         ]
     },
     "accept-your-fate": {
-        "text": "You begin to cower up against the wall as the creature comes closer and closer.  You whimper, and then it begins licking your toes.  It's your cat.  You get a moment of clarity and realize everything is going to be alright.  Although, in the back of your mind, you still wonder... 'who is Fathoovu?",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You begin to cower up against the wall as the creature comes closer and closer.  You whimper...",
+        "image": "../images/black.jpg",
         "choices": [
             {
-                "text": "THE END.  Restart?",
+                "text": "Continue...",
+                "goto": "accept-your-fate2"
+            }
+        ]
+    },
+    "accept-your-fate2": {
+        "text": "...and then it begins licking your toes.  It's your cat.  You get a moment of clarity and realize everything is going to be alright.  Although, in the back of your mind, you still wonder... 'who the heck is a Fathoovu?",
+        "image": "../images/327.jpg",
+        "choices": [
+            {
+                "text": "Your cat is purrfect.  Restart?",
                 "goto": "init"
             }
         ]
     },
     "try-to-bargain": {
-        "text": "You try to bargain with the creature, asking what it wants.  It looks quizzically back at you, then roars again.  It leaps at you, and you die of fright.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You try to bargain with the creature, asking what it wants.  It looks quizzically back at you...",
+        "image": "../images/315.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "try-to-bargain2"
+            }
+        ]
+    },
+    "try-to-bargain2": {
+        "text": "...then roars again.  It leaps at you, and you die of fright.",
+        "image": "../images/307.jpg",
         "choices": [
             {
                 "text": "Restart?",
@@ -158,8 +408,28 @@
         ]
     },
     "eat-another-oreo": {
-        "text": "You nervously eat another Oreo.  This one hits you like a freight train.  You stumble back onto your couch and sink into it, as a rainbow bursts through your ceiling.  A magical leprechaun appears and says \"Aye laddie, would ya like ta find me pot o' gold?  Just follow me rainbow!\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You decide to eat another Oreo.",
+        "image": "../images/385.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "eat=another-oreo2"
+            }
+        ]
+    },
+    "eat-another-oreo2": {
+        "text": "This one hits you like a freight train.  You stumble back onto your couch and sink into it, as a rainbow bursts through your ceiling.",
+        "image": "../images/rainbowbridge.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "eat-another-oreo3"
+            }
+        ]
+    },
+    "eat-another-oreo3": {
+        "text": "A magical leprechaun appears and says \"Aye laddie, would ya like ta find me pot o' gold?  Just follow me rainbow!\"",
+        "image": "../images/lep1.jpg",
         "choices": [
             {
                 "text": "Follow the rainbow",
@@ -240,8 +510,8 @@
         ]
     },
     "answer-the-call": {
-        "text": "You answer your phone and only hear ragged breathing.\"Who is this?\" you ask.  …  \"You are in great danger. He sees you. He knows where you live. …He knows your dreams and wishes to feast on your soul.  Run while you still can!\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You answer your phone and only hear ragged breathing...\"Who is this?\" you ask.  …  \"You are in great danger. He sees you. He knows where you live. …He knows your dreams and wishes to feast on your soul.  Run while you still can!\"",
+        "image": "../images/063.jpg",
         "choices": [
             {
                 "text": "Ask who he is talking about",
@@ -257,9 +527,10 @@
             }
         ]
     },
+    
     "ask-who-he-is-talking-about": {
         "text": "\"Fathoovu, duh!  You have no time!  You must escape before he ki-\"  A loud scream is heard over the phone, then dead silence.  Lightning strikes again outside, with thunder quick behind.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/063.jpg",
         "choices": [
             {
                 "text": "Pack your things and leave",
@@ -273,7 +544,7 @@
     },
     "hang-up": {
         "text": "You've heard a few prank calls in your day, and this definitely seems like a prank call to you.  \"Wrong number, prank caller!  Prank caller!\" you exclaim triumphantly as you hang up.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/065.jpg",
         "choices": [
             {
                 "text": "Turn on your tv",
@@ -286,8 +557,38 @@
         ]
     },
     "turn-on-your-tv": {
-        "text": "You decide to turn on your tv.  You find a Tom Cruise movie.  The screen flickers, and then begins bleeding.  A gigantic eyeball appears on screen and an ominous voice belts out \"Your soul is mine\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You decide to turn on your tv, even though the power is out.",
+        "image": "../images/392.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "turn-on-your-tv2"
+            }
+        ]
+    },
+    "turn-on-your-tv2": {
+        "text": "Oddly enough, it works, and you find a spectacular movie.",
+        "image": "../images/movie.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "turn-on-your-tv3"
+            }
+        ]
+    },
+    "turn-on-your-tv3": {
+        "text": "The screen flickers, and then begins bleeding...",
+        "image": "../images/bloodscreen.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "turn-on-your-tv4"
+            }
+        ]
+    },
+    "turn-on-your-tv4": {
+        "text": "Fathoovu appears on screen and an ominous voice belts out \"Your soul is mine\"",
+        "image": "../images/monstertv.jpg",
         "choices": [
             {
                 "text": "Scream and hope someone hears you",
@@ -300,8 +601,28 @@
         ]
     },
     "eat-a-bowl-of-cereal": {
-        "text": "You go to your kitchen to relax with a nice bowl of cereal after all this commotion.  As you are eating at your table, you hear a knock on your door.  You call out \"Who's there?\" but there is no response.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You go to your kitchen to relax with a nice bowl of cereal after all this commotion.",
+        "image": "../images/400.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "eat-a-bowl-of-cereal2"
+            }
+        ]
+    },
+    "eat-a-bowl-of-cereal2": {
+        "text": "As you are pouring your cereal, you hear a knock on your door.",
+        "image": "../images/407.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "eat-a-bowl-of-cereal3"
+            }
+        ]
+    },
+    "eat-a-bowl-of-cereal3": {
+        "text": "You call out \"Who's there?\" but there is no response.",
+        "image": "../images/417.jpg",
         "choices": [
             {
                 "text": "Open the front door",
@@ -314,8 +635,98 @@
         ]
     },
     "continue-to-eat": {
-        "text": "It could be the cops.  No way you're answering.  You take another mouthful of your delicious cereal.  In front of you, your cereal box drops down, and a phone drops out.  It begins ringing.  The caller's name... is FATHOOVU",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "It could be the cops.  No way you're answering.  You take another mouthful of your delicious cereal.",
+        "image": "../images/425.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "continue-to-eat2"
+            }
+        ]
+    },
+    "continue-to-eat2": {
+        "text": "Your cereal box falls down...",
+        "image": "../images/426.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "continue-to-eat3"
+            }
+        ]
+    },
+    "continue-to-eat3": {
+        "text": "...",
+        "image": "../images/435.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "continue-to-eat4"
+            }
+        ]
+    },
+    "continue-to-eat4": {
+        "text": "...",
+        "image": "../images/440.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "continue-to-eat5"
+            }
+        ]
+    },
+    "continue-to-eat5": {
+        "text": "...",
+        "image": "../images/443.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "continue-to-eat6"
+            }
+        ]
+    },
+    "continue-to-eat6": {
+        "text": "...",
+        "image": "../images/445.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "continue-to-eat7"
+            }
+        ]
+    },
+    "continue-to-eat7": {
+        "text": "...",
+        "image": "../images/446.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "continue-to-eat8"
+            }
+        ]
+    },
+    "continue-to-eat8": {
+        "text": "...",
+        "image": "../images/449.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "continue-to-eat9"
+            }
+        ]
+    },
+    "continue-to-eat9": {
+        "text": "...",
+        "image": "../images/451.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "continue-to-eat10"
+            }
+        ]
+    },
+    "continue-to-eat10": {
+        "text": "Your phone is ringing...",
+        "image": "../images/467.jpg",
         "choices": [
             {
                 "text": "Answer the phone",
@@ -328,18 +739,58 @@
         ]
     },
     "answer-the-phone": {
-        "text": "You pick up the phone.  “Hello?”  A voice over the phone roars, and something begins pounding on your front door again.  You turn back to your phone and a goo begins pouring out of the phone, and traveling up your arm, surrounding your body and eventually suffocating you.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You pick up the phone.  “Hello?”",
+        "image": "../images/494.jpg",
         "choices": [
             {
-                "text": "THE END.  Restart?",
+                "text": "Continue...",
+                "goto": "answer-the-phone2"
+            }
+        ]
+    },
+    "answer-the-phone2": {
+        "text": "A voice over the phone roars, and something begins pounding on your front door again.",
+        "image": "../images/417.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "answer-the-phone3"
+            }
+        ]
+    },
+    "answer-the-phone3": {
+        "text": "You turn back to your phone and it suddenly explodes, engulfing your entire body.",
+        "image": "../images/explodephone.jpg",
+        "choices": [
+            {
+                "text": "YOU ARE DEAD.  Restart?",
                 "goto": "init"
             }
         ]
     },
     "phone-trash": {
-        "text": "You toss your phone in the trash.  Some people just can’t take no for an answer.   You did it!  You successfully avoided an adventure with possibly horrible consequences!",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You decide to toss your phone in the trash.",
+        "image": "../images/497.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "phone-trash2"
+            }
+        ]
+    },
+    "phone-trash2": {
+        "text": "Some people just can’t take no for an answer.",
+        "image": "../images/498.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "phone-trash3"
+            }
+        ]
+    },
+    "phone-trash3": {
+        "text": "You did it!  You successfully avoided an adventure with possibly horrible consequences!",
+        "image": "../images/499.jpg",
         "choices": [
             {
                 "text": "THE END.  Restart?",
@@ -348,8 +799,38 @@
         ]
     },
     "open-the-front-door": {
-        "text": "You cautiously creep towards the front door and open it only to see a giant eyeball staring back at you.  You slam the door shut in fright and run back to your bedroom.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You cautiously creep towards the front door...",
+        "image": "../images/500.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "open-the-front-door2"
+            }
+        ]
+    },
+    "open-the-front-door2": {
+        "text": "You cautiously creep towards the front door and open it only to see an unspeakable horror staring back at you.",
+        "image": "../images/opendoor.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "open-the-front-door3"
+            }
+        ]
+    },
+    "open-the-front-door3": {
+        "text": "You slam the door shut in fright and run!",
+        "image": "../images/505.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "open-the-front-door4"
+            }
+        ]
+    },
+    "open-the-front-door4": {
+        "text": "...",
+        "image": "../images/506.jpg",
         "choices": [
             {
                 "text": "Hide under a blanket",
@@ -363,7 +844,7 @@
     },
     "pray-to-fathoovu": {
         "text": "You don’t know what comes over you, but you can only think about praying to this mysterious Fathoovu in hopes that it can spare your life.  “Please, I’ll do anything.  Just let me live.”",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/514.jpg",
         "choices": [
             {
                 "text": "Worship Fathoovu",
@@ -528,18 +1009,38 @@
         ]
     },
     "worship-fathoovu": {
-        "text": "A cultist in a robe enters your room, holding a candle.  “Come with me.”  He leads you to your living room where you see a large pentagram on the floor.  “You will serve your new master well.”",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "...",
+        "image": "../images/523.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "worship-fathoovu2"
+            }
+        ]
+    },
+    "worship-fathoovu2": {
+        "text": "A cultist in a robe enters your room, holding a candle.  “Come with me.”",
+        "image": "../images/543.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "worship-fathoovu3"
+            }
+        ]
+    },
+    "worship-fathoovu3": {
+        "text": "He leads you to your living room and sits across from you.  “You will serve your new master well.”",
+        "image": "../images/572.jpg",
         "choices": [
             {
                 "text": "“I obey.”",
                 "goto": "i-obey"
             }
         ]
-    },
+    },    
     "i-obey": {
-        "text": "The cultist smiles at you, and states “You will no longer need your eyes.  The master already sees all.”",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "\"You will no longer need your eyes.  The master already sees all.”",
+        "image": "../images/572.jpg",
         "choices": [
             {
                 "text": "“His will be done.”",
@@ -548,8 +1049,28 @@
         ]
     },
     "his-will-be-done": {
-        "text": "The cultist lunges at your eyes with a knife, and you only see black.  You spend the next few years helping to establish a temple and recruit new followers.  You are comforted knowing that your life now has purpose.  To serve.  To obey.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "The cultist lunges at your eyes with a knife.",
+        "image": "../images/606.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "his-will-be-done2"
+            }
+        ]
+    },
+    "his-will-be-done2": {
+        "text": "...",
+        "image": "../images/black.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "his-will-be-done3"
+            }
+        ]
+    },
+    "his-will-be-done3": {
+        "text": "You spend the next few years helping to establish a temple and recruit new followers.  You are comforted knowing that your life now has purpose.  To serve.  To obey.",
+        "image": "../images/black.jpg",
         "choices": [
             {
                 "text": "THE END.  Restart?",
