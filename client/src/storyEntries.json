@@ -413,7 +413,7 @@
         "choices": [
             {
                 "text": "Continue...",
-                "goto": "eat=another-oreo2"
+                "goto": "eat-another-oreo2"
             }
         ]
     },
@@ -527,7 +527,6 @@
             }
         ]
     },
-    
     "ask-who-he-is-talking-about": {
         "text": "\"Fathoovu, duh!  You have no time!  You must escape before he ki-\"  A loud scream is heard over the phone, then dead silence.  Lightning strikes again outside, with thunder quick behind.",
         "image": "../images/063.jpg",
@@ -1037,7 +1036,7 @@
                 "goto": "i-obey"
             }
         ]
-    },    
+    },
     "i-obey": {
         "text": "\"You will no longer need your eyes.  The master already sees all.”",
         "image": "../images/572.jpg",
@@ -1320,6 +1319,4 @@
             }
         ]
     }
-    
-
 }
