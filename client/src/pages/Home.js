@@ -20,7 +20,8 @@ class Home extends Component {
                 }
             ],
             password: ""
-        }
+        },
+        cheevos: []
     };
 
     componentDidMount = () => {
@@ -65,15 +66,16 @@ class Home extends Component {
         });
     }
 
-    setName = (name) => {
+    setUser = (name, password) => {
         this.setState({
-            name: name
+            name: name,
+            password: password
         });
     }
 
-    setPassword = (password) => {
+    setCheevos = (cheevos) => {
         this.setState({
-            password: password
+            cheevos: cheevos
         });
     }
 
@@ -101,19 +103,23 @@ class Home extends Component {
 
         return (
             <div className="height100">
-                <div style={this.state.name === "" ? noStyle : hiddenStyle}>
-                    <NameInput setName={this.setName} />
+                <div style={this.state.cheevos.length !== 0 ? noStyle : hiddenStyle}>
+                    {/*TODO: show achievements*/}
                 </div>
-                <div style={this.state.name === "" ? hiddenStyle : noStyle}>
-                    <div className="imageContainer">
-                        <div>
-                            <StoryText text={this.state.story.text.replace("<name>", this.state.name)} />
-                            <Image src={this.state.story.imagePath} />
+                <div style={this.state.cheevos.length !== 0 ? hiddenStyle : noStyle}>
+                    <div style={this.state.name === "" ? noStyle : hiddenStyle}>
+                        <NameInput setUser={this.setUser} setCheevos={this.setCheevos} />
+                    </div>
+                    <div style={this.state.name === "" ? hiddenStyle : noStyle}>
+                        <div className="imageContainer">
+                            <div>
+                                <StoryText text={this.state.story.text.replace("<name>", this.state.name)} />
+                                <Image src={this.state.story.imagePath} />
+                            </div>
+                            <div className="optionsDiv">
+                                {this.getButtons()}
+                            </div>
                         </div>
-                        <div className="optionsDiv">
-                            {this.getButtons()}
-                        </div>
-
                     </div>
                 </div>
                 <img src="https://creamdreamextremeteam.github.io/MissionNutrition/assets/images/MIC.gif" id="tc" style={tcStyle} alt="" />
