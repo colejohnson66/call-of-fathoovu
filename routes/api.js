@@ -29,7 +29,9 @@ router.post("/stories/bulkInsert", (req, res) => {
             obj.validateSync();
             obj.save();
         }
-        res.json({});
+        res.json({
+            inserted: data.length
+        });
     }).catch((err) => {
         res.status(500).json(err);
     });
