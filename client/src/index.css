@@ -63,14 +63,6 @@ body {
     top: -81px;
 }
 
-#titlebutton{
-    background-color: white;
-}
-
-#nameInput {
-    background-color: white;
-}
-
-#password {
+#titlebutton, #passwordInput, #nameInput, #cheevoButton{
     background-color: white;
 }
