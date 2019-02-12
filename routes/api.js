@@ -11,7 +11,7 @@ router.get("/stories/:path", (req, res) => {
         res.json(data);
     }).catch((err) => {
         res.status(500).json(err);
-    })
+    });
 });
 
 router.post("/stories/bulkInsert", (req, res) => {
@@ -31,6 +31,8 @@ router.post("/stories/bulkInsert", (req, res) => {
 
             res.json({});
         }
+    }).catch((err) => {
+        res.status(500).json(err);
     });
 });
 
@@ -50,6 +52,8 @@ router.post("/user/create", (req, res) => {
         user.save();
 
         res.json(user);
+    }).catch((err) => {
+        res.status(500).json(err);
     });
 });
 
@@ -67,6 +71,8 @@ router.post("/user/achievements", (req, res) => {
             return res.status(400).json({});
 
         res.json(data.achievements);
+    }).catch((err) => {
+        res.status(500).json(err);
     });
 });
 
@@ -84,6 +90,8 @@ router.post("/user/achievements/add", (req, res) => {
         data.save();
 
         res.json(data.achievements);
+    }).catch((err) => {
+        res.status(500).json(err);
     });
 });
 
