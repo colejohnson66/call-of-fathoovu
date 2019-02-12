@@ -42,7 +42,7 @@ router.post("/user/create", (req, res) => {
     User.findOne({ username: req.body.username }).then((data) => {
         // don't create the user if they already exist
         if (data !== null)
-            return res.json(data);
+            return res.status(400).json(data);
 
         let user = new User();
         user.username = req.body.username;
