@@ -15,7 +15,7 @@ export default {
                 username: username,
                 password: password
             };
-            return axios.post("/api/user", data)
+            return axios.post("/api/user/create", data)
                 .then((res) => res)
                 .catch((err) => err);
         },
