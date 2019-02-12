@@ -202,7 +202,7 @@
     },
     "call-the-police2": {
         "text": "Your phone is dead, however.  And so are you, as an arm reaches out of your phone and kills you.",
-        "image": "../images/357.jpg",
+        "image": "../images/357.png",
         "choices": [
             {
                 "text": "YOU ARE DEAD. Restart?",
@@ -1079,8 +1079,48 @@
         ]
     },
     "hide-under-a-blanket": {
-        "text": "You hide under your blanket and hear the door to your bedroom creak open.  A wet footstep slaps on your floor.  Another.  It gets closer, and closer, until the blanket is ripped off of you and a monster screeches in your face.  You are dead.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You hide under your blanket and hear the door to your bedroom creak open.",
+        "image": "../images/611.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "hide-under-a-blanket2"
+            }
+        ]
+    },
+    "hide-under-a-blanket2": {
+        "text": "A wet footstep slaps on your floor.",
+        "image": "../images/611.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "hide-under-a-blanket3"
+            }
+        ]
+    },
+    "hide-under-a-blanket3": {
+        "text": "Another.",
+        "image": "../images/611.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "hide-under-a-blanket4"
+            }
+        ]
+    },
+    "hide-under-a-blanket4": {
+        "text": "...",
+        "image": "../images/624.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "hide-under-a-blanket5"
+            }
+        ]
+    },
+    "hide-under-a-blanket5": {
+        "text": "Guess this wasn't the best hiding place.",
+        "image": "../images/621.jpg",
         "choices": [
             {
                 "text": "You are dead.  Restart?",
@@ -1090,7 +1130,7 @@
     },
     "scream-and-hope": {
         "text": "You scream, but no sound comes out.  Your body freezes up as your soul begins to travel into the television, and the last thing you see is the creature laughing, jaw agape as it devours your soul.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/liquiddeath.jpg",
         "choices": [
             {
                 "text": "You are now soulless, and dead.  Restart?",
@@ -1100,7 +1140,7 @@
     },
     "no-its-not": {
         "text": "\"Excuse me?\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/monstertv.jpg",
         "choices": [
             {
                 "text": "\"You heard me.\"",
@@ -1113,8 +1153,28 @@
         ]
     },
     "you-heard-me": {
-        "text": "\"My mistake.  I apologize.\"  It disappears off your screen and you spend the rest of your day wondering how it could have made such a simple mistake of thinking your soul was his.  You drink a cup of coffee later in the day, and that's about as exciting as your day gets.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "\"My mistake.  I apologize.\"",
+        "image": "../images/monstertv.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "you-heard-me2"
+            }
+        ]
+    },
+    "you-heard-me2": {
+        "text": "It disappears off your screen.",
+        "image": "../images/021.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "you-heard-me3"
+            }
+        ]
+    },
+    "you-heard-me3": {
+        "text": "You spend the rest of your day wondering how it could have made such a simple mistake of thinking your soul was his.  You drink a cup of coffee later in the day, and that's about as exciting as your day gets.",
+        "image": "../images/640.jpg",
         "choices": [
             {
                 "text": "THE END.  Restart?",
@@ -1123,8 +1183,28 @@
         ]
     },
     "dive-through-the-screen-and-punch-the-creature": {
-        "text": "You do your best superhero impression and dive face first into the screen, flying through the screen into the monster's realm, and take it's head clear off.  Unfortunately, you can only remember how to go through screens in one direction.  You're going to be here a while.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You do your best superhero impression and dive fists first into the screen.",
+        "image": "../images/supermanpunch.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "dive-through-the-screen-and-punch-the-creature2"
+            }
+        ]
+    },
+    "dive-through-the-screen-and-punch-the-creature2": {
+        "text": "...flying through the screen into the monster's realm, and give it a sucker punch worthy of a heavyweight boxer.",
+        "image": "../images/realmpunch.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "dive-through-the-screen-and-punch-the-creature3"
+            }
+        ]
+    },
+    "dive-through-the-screen-and-punch-the-creature3": {
+        "text": "Unfortunately, you can only remember how to go through screens in one direction.  You're going to be here a while.",
+        "image": "../images/black.jpg",
         "choices": [
             {
                 "text": "THE END.  Restart?",
@@ -1134,7 +1214,7 @@
     },
     "search-your-contacts": {
         "text": "You search through your contacts and find only one entry:  TC.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/tcphone.jpg",
         "choices": [
             {
                 "text": "Call TC",
@@ -1144,7 +1224,7 @@
     },
     "call-tc": {
         "text": "You call, and after a few rings, someone picks up.  The Mission Impossible song starts playing, then Tom Cruise drops from the ceiling.  Today is going to be a good day.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/black.jpg",
         "choices": [
             {
                 "text": "HELL YEAH.  Restart?",
@@ -1153,8 +1233,38 @@
         ]
     },
     "pack-your-things": {
-        "text": "You are spooked.  You immediately grab your backpack and put all your belongings in it.  You head to your front door and find that it is jammed shut.  When you grab the door knob, your hand burns.  You spin around to find a man wearing a mask and holding a knife behind you.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You are spooked and head to your front door.",
+        "image": "../images/670.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "pack-your-things2"
+            }
+        ]
+    },
+    "pack-your-things2": {
+        "text": "You immediately grab your backpack and put all your belongings in it...",
+        "image": "../images/678.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "pack-your-things3"
+            }
+        ]
+    },
+    "pack-your-things3": {
+        "text": "You head to your front door and find that it is jammed shut.",
+        "image": "../images/238.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "pack-your-things4"
+            }
+        ]
+    },
+    "pack-your-things4": {
+        "text": "You spin around to find a man wearing a mask and holding a knife behind you.",
+        "image": "../images/724.jpg",
         "choices": [
             {
                 "text": "Hurl a book at him",
@@ -1167,8 +1277,28 @@
         ]
     },
     "google-fathoovu": {
-        "text": "Always better to have an understanding of your enemy, you recall your mother telling you in that one strange dream decades ago that you never mentioned to anyone.  You open up your laptop and promptly google this 'Fathoovu'.  No results come up.  No images.  No maps.  No video.  Nothing.  Your screen however, begins to glitch.  All of a sudden, a monstrous tentacled being appears on your screen.",
+        "text": "Always better to have an understanding of your enemy, you recall your mother telling you in that one strange dream decades ago that you never mentioned to anyone.  You open up your laptop and promptly google this 'Fathoovu'.",
+        "image": "../images/683.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "google-fathoovu2"
+            }
+        ]
+    },
+    "google-fathoovu2": {
+        "text": "No results come up.  No images.  No maps.  No video.  Nothing.  Your screen however, begins to glitch.",
         "image": "https://via.placeholder.com/1000x500/",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "google-fathoovu3"
+            }
+        ]
+    },
+    "google-fathoovu3": {
+        "text": "A monstrous tentacled Fathoovu appears on your screen.",
+        "image": "../images/glitchscreen.jpg",
         "choices": [
             {
                 "text": "Slam your laptop shut",
@@ -1181,8 +1311,48 @@
         ]
     },
     "slam-your-laptop-shut": {
-        "text": "NOPE.  NOPENOPENOPE.  You close your laptop and push it away from you.  Out of sight, out of mind, and you decide to nap it off.  In your dreams, you see the same monster reaching out to you… closer… and closer…  You never wake up again.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "NOPE.  NOPENOPENOPE.  You close your laptop...",
+        "image": "../images/687.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "init"
+            }
+        ]
+    },
+    "slam-your-laptop-shut2": {
+        "text": "and push it away from you.",
+        "image": "../images/693.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "init"
+            }
+        ]
+    },
+    "slam-your-laptop-shut3": {
+        "text": "Out of sight, out of mind, and you decide to sleep it off.",
+        "image": "../images/715.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "init"
+            }
+        ]
+    },
+    "slam-your-laptop-shut4": {
+        "text": "...",
+        "image": "../images/black.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "init"
+            }
+        ]
+    },
+    "slam-your-laptop-shut5": {
+        "text": "In your dreams, you see the same monster reaching out to you… closer… and closer…  You never wake up again.",
+        "image": "../images/dreamdeath.jpg",
         "choices": [
             {
                 "text": "Sleep well, friend.  Restart?",
@@ -1191,8 +1361,8 @@
         ]
     },
     "updog": {
-        "text": "The creature looks confused and cocks its head to the side.  … \"What's updog?\"  \"Not much, you?\" … \"Funny.  Funny joke.  You are a jokester.  I like jokes.\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "The creature looks confused and cocks its head to the side.  … \"What's updog?\"  \"Not much, you?\" you triumphantly reply. … \"Funny.  Funny joke.  You are a jokester.  I like jokes.\"",
+        "image": "../images/glitchscreen.jpg",
         "choices": [
             {
                 "text": "\"Yeah it's a good one.  Want to be friends?\"",
@@ -1210,7 +1380,7 @@
     },
     "yeah-its-a-good-one": {
         "text": "\"No, but let's get married.\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/glitchscreen.jpg",
         "choices": [
             {
                 "text": "\"Okay.\" ",
@@ -1223,8 +1393,18 @@
         ]
     },
     "your-face-is-a-joke": {
-        "text": "\"The only joke here is your continued existence.\"  It snaps its fingers, and you disappear to a room of pure white.  You try to scream, but you make no sound.  You cannot move.  You just float there.  Forever.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "\"The only joke here is your continued existence.\"",
+        "image": "../images/glitchscreen.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "your-face-is-a-joke2"
+            }
+        ]
+    },
+    "your-face-is-a-joke2": {
+        "text": "It snaps its fingers, and you disappear to a room of pure white.  You try to scream, but you make no sound.  You cannot move.  You just float there.  Forever.",
+        "image": "../images/thevoid.jpg",
         "choices": [
             {
                 "text": "Welcome to the void.  Restart?",
@@ -1234,7 +1414,7 @@
     },
     "this-is-ridiculous": {
         "text": "\"Same.\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/glitchscreencool.jpg",
         "choices": [
             {
                 "text": "Restart?  Or Not.  Whatever?",
@@ -1253,8 +1433,28 @@
         ]
     },
     "hurl-a-book-at-him": {
-        "text": "You grab the nearest book and hurl it straight at his face.  He swats it away with ease and makes his way closer.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You grab the nearest book...",
+        "image": "../images/755.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "hurl-a-book-at-him2"
+            }
+        ]
+    },
+    "hurl-a-book-at-him2": {
+        "text": " and hurl it straight at his face.",
+        "image": "../images/841.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "hurl-a-book-at-him3"
+            }
+        ]
+    },
+    "hurl-a-book-at-him3": {
+        "text": "It has no effect.",
+        "image": "../images/839.jpg",
         "choices": [
             {
                 "text": "Hurl another book",
@@ -1267,8 +1467,38 @@
         ]
     },
     "what-do-you-want-with-me": {
-        "text": "The maniac responds, \"I can't let him have you.  If you knew more, you would be thanking me.\"  He lunges towards you, but slips on a rag on the floor and falls to the ground.  Motionless.  … …  ",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "The maniac responds, \"I can't let him have you.  If you knew more, you would be thanking me.\"  He lunges towards you...",
+        "image": "../images/737.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "what-do-you-want-with-me2"
+            }
+        ]
+    },
+    "what-do-you-want-with-me2": {
+        "text": "...but slips on a rag on the floor and falls to the ground.",
+        "image": "../images/766.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "what-do-you-want-with-me3"
+            }
+        ]
+    },
+    "what-do-you-want-with-me3": {
+        "text": "...",
+        "image": "../images/771.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "what-do-you-want-with-me4"
+            }
+        ]
+    },
+    "what-do-you-want-with-me4": {
+        "text": "...",
+        "image": "../images/777.jpg",
         "choices": [
             {
                 "text": "Search his body",
@@ -1281,8 +1511,28 @@
         ]
     },
     "search-his-body": {
-        "text": "Not being deterred by what happens in horror movies when people inspect an unconscious killer, you slowly walk up to his body and search his pockets.  He sits up incredibly fast and kills you.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "Not being deterred by what happens in horror movies when people inspect an unconscious killer, you slowly walk up to his body and search his pockets.",
+        "image": "../images/787.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "search-his-body2"
+            }
+        ]
+    },
+    "search-his-body2": {
+        "text": "When you get closer, he sits up incredibly fast...",
+        "image": "../images/793.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "search-his-body3"
+            }
+        ]
+    },
+    "search-his-body3": {
+        "text": "...and kills you.",
+        "image": "../images/810.jpg",
         "choices": [
             {
                 "text": "You are dead.  Restart?",
@@ -1291,6 +1541,36 @@
         ]
     },
     "kick-the-knife": {
+        "text": "You kick the knife away from him, knowing that if he regains consciousness he could attack you again at any given moment.",
+        "image": "../images/757.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "kick-the-knife2"
+            }
+        ]
+    },
+    "kick-the-knife2": {
+        "text": "...",
+        "image": "../images/762.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "kick-the-knife3"
+            }
+        ]
+    },
+    "kick-the-knife3": {
+        "text": "Turning around, you find that the body is already gone.   You slowly peer around the corner, when you hear a deep breath right behind you.  You turn around, and he is face to face with you.  \"I'm sorry, but I can't let him have you.\"",
+        "image": "../images/813.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "kick-the-knife4"
+            }
+        ]
+    },
+    "kick-the-knife4": {
         "text": "You kick the knife away from him, knowing that if he regains consciousness he could attack you again at any given moment.  Turning around, you find that the man is already gone.   You slowly peer around the corner, when you hear a deep breath right behind you.  You turn around, and he is face to face with you.  \"I'm sorry, but I can't let him have you.\"",
         "image": "https://via.placeholder.com/1000x500/",
         "choices": [
