@@ -20,7 +20,7 @@ class NameInput extends Component {
             // check if user already exists. if they don't call setUser
             if (data.status === 200) {
                 this.props.setUser(username, password);
-                this.setState({ invalidPassword: true });
+                this.setState({ invalidPassword: false });
             } else {
                 this.setState({ invalidPassword: true });
             }
