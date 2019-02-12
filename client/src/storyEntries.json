@@ -413,13 +413,13 @@
         "choices": [
             {
                 "text": "Continue...",
-                "goto": "eat=another-oreo2"
+                "goto": "eat-another-oreo2"
             }
         ]
     },
     "eat-another-oreo2": {
         "text": "This one hits you like a freight train.  You stumble back onto your couch and sink into it, as a rainbow bursts through your ceiling.",
-        "image": "../images/rainbowbridge.jpg",
+        "image": "../images/rainbow.jpg",
         "choices": [
             {
                 "text": "Continue...",
@@ -1020,7 +1020,7 @@
     },
     "worship-fathoovu2": {
         "text": "A cultist in a robe enters your room, holding a candle.  “Come with me.”",
-        "image": "../images/543.jpg",
+        "image": "../images/546.jpg",
         "choices": [
             {
                 "text": "Continue...",
@@ -1244,7 +1244,7 @@
     },
     "okay": {
         "text": "The Fathoovu of your dreams stands before you in a tuxedo.  This is going to be the adventure of a lifetime.  You spend the rest of your days in eternal bliss.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/wedding.jpg",
         "choices": [
             {
                 "text": "Congratulations!  Restart?",
