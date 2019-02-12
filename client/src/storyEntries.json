@@ -1561,7 +1561,7 @@
         ]
     },
     "kick-the-knife3": {
-        "text": "Turning around, you find that the body is already gone.   You slowly peer around the corner, when you hear a deep breath right behind you.  You turn around, and he is face to face with you.  \"I'm sorry, but I can't let him have you.\"",
+        "text": "Turning around, you find that the body is already gone.",
         "image": "../images/813.jpg",
         "choices": [
             {
@@ -1571,8 +1571,8 @@
         ]
     },
     "kick-the-knife4": {
-        "text": "You kick the knife away from him, knowing that if he regains consciousness he could attack you again at any given moment.  Turning around, you find that the man is already gone.   You slowly peer around the corner, when you hear a deep breath right behind you.  You turn around, and he is face to face with you.  \"I'm sorry, but I can't let him have you.\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You hear a deep breath right behind you.  You turn around, and he is face to face with you.  \"I'm sorry, but I can't let him have you.\"",
+        "image": "../images/822.jpg",
         "choices": [
             {
                 "text": "THE END.  Restart?",
@@ -1581,8 +1581,38 @@
         ]
     },
     "hurl-another-book": {
-        "text": "Dad taught you if at first you don't succeed, try, try again.  So you throw another book.  And another.  Then a fourth book, and it explodes and breaks the screen.  The killer says \"Dude, I think you broke the game.\" ",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "Dad taught you in that other strange and confusing dream that you forgot about until this very moment that if at first you don't succeed, try, try again.  So you throw another book.",
+        "image": "../images/846.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "init"
+            }
+        ]
+    },
+    "hurl-another-book2": {
+        "text": "And another.",
+        "image": "../images/851.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "init"
+            }
+        ]
+    },
+    "hurl-another-book3": {
+        "text": "Then a fourth book, and it explodes.",
+        "image": "../images/breakscreen.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "init"
+            }
+        ]
+    },
+    "hurl-another-book4": {
+        "text": "\"Dude, I think you broke the game.\" ",
+        "image": "../images/fourthwall.jpg",
         "choices": [
             {
                 "text": "What did you do?  Restart?",
@@ -1591,8 +1621,38 @@
         ]
     },
     "jump-out-your-window": {
-        "text": "Screw this.  You jump out your window, deciding it's better to take your chances with gravity than against a knife wielding maniac.  As soon as you break the glass however, you recall you're on the 10th floor of your building, and that probably wasn't the smartest idea.  Right before you hit the ground you think, \"I hope I cleared my browser history.\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "Screw this.",
+        "image": "../images/829.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "jump-out-your-window2"
+            }
+        ]
+    },
+    "jump-out-your-window2": {
+        "text": "You make a break for your window, deciding it's better to take your chances with gravity than against a knife wielding maniac.",
+        "image": "../images/876.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "jump-out-your-window3"
+            }
+        ]
+    },
+    "jump-out-your-window3": {
+        "text": "As soon as you break the glass however, you recall you're on the 50th floor of your building, and that probably wasn't the smartest idea.",
+        "image": "../images/glassimage.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "jump-out-your-window4"
+            }
+        ]
+    },
+    "jump-out-your-window4": {
+        "text": "Right before you hit the ground you think, \"I hope I cleared my browser history.\"",
+        "image": "../images/heightdeath.jpg",
         "choices": [
             {
                 "text": "Splat!  Restart?",
