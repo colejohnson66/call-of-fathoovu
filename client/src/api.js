@@ -16,17 +16,17 @@ export default {
                 password: password
             };
             return axios.post("/api/user", data)
-                .then((res) => res.data)
-                .catch((err) => { throw err });
+                .then((res) => res)
+                .catch((err) => err);
         },
         getAchievements: (username, password) => {
             let data = {
                 username: username,
                 password: password
             };
-            return axios.post("/api/achievements", data)
-                .then((res) => res.data)
-                .catch((err) => { throw err });
+            return axios.post("/api/user/achievements", data)
+                .then((res) => res)
+                .catch((err) => err);
         },
         addAchievement: (username, password, achievement) => {
             let data = {
@@ -34,9 +34,9 @@ export default {
                 password: password,
                 achievement: achievement
             };
-            return axios.post("/api/achievements/add", data)
-                .then((res) => res.data)
-                .catch((err) => { throw err });
+            return axios.post("/api/user/achievements/add", data)
+                .then((res) => res)
+                .catch((err) => err);
         }
     }
 };
