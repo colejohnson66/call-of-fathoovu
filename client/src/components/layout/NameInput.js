@@ -57,7 +57,7 @@ class NameInput extends Component {
                     <Button id="titlebutton" onClick={this.handleNameButtonClick}>BEGIN</Button>
                     <Button id="cheevoButton" onClick={this.handleCheevoButtonClick}>View 'Cheevos</Button>
                     <br />
-                    {this.state.invalidPassword ? <div>Invalid password</div> : <div></div>}
+                    {this.state.invalidPassword ? <div className="invalid">Invalid password</div> : <div></div>}
                 </div>
             </div>
         );
