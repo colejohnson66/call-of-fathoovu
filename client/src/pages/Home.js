@@ -19,7 +19,7 @@ class Home extends Component {
                     "goto": "init2"
                 }
             ],
-        password: ""
+            password: ""
         }
     };
 
@@ -106,11 +106,14 @@ class Home extends Component {
                 </div>
                 <div style={this.state.name === "" ? hiddenStyle : noStyle}>
                     <div className="imageContainer">
-                        <StoryText text={this.state.story.text.replace("<name>", this.state.name)} />
-                        <Image src={this.state.story.imagePath} />
+                        <div>
+                            <StoryText text={this.state.story.text.replace("<name>", this.state.name)} />
+                            <Image src={this.state.story.imagePath} />
+                        </div>
                         <div className="optionsDiv">
                             {this.getButtons()}
                         </div>
+
                     </div>
                 </div>
                 <img src="https://creamdreamextremeteam.github.io/MissionNutrition/assets/images/MIC.gif" id="tc" style={tcStyle} alt="" />
