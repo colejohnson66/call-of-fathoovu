@@ -45,7 +45,6 @@ class Home extends Component {
             audio.play();
             setTimeout(() => {
                 img.className = "animated bounceInDown";
-                img.classList.add("animated", "bounceInDown");
                 img.style = "position:absolute; left:0; top:0; width:100%";
             }, 6.5 * 1000);
             setTimeout(() => {
