@@ -60,6 +60,8 @@ class Home extends Component {
             this.setState({ story: pathObj });
             if (pathObj.cheevo !== undefined)
                 this.giveCheevo(pathObj.cheevo);
+            if (pathObj.sound !== undefined)
+                new Audio(pathObj.sound).play();
         });
     }
 
@@ -103,10 +105,6 @@ class Home extends Component {
             width: "100%",
             visibility: "hidden"
         };
-
-        console.log(this.state.story);
-        if (this.state.story.sound !== undefined)
-            new Audio(this.state.story.sound).play();
 
         return (
             <div className="height100">
