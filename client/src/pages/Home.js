@@ -104,6 +104,9 @@ class Home extends Component {
             visibility: "hidden"
         };
 
+        if (this.state.story.sound !== undefined)
+            new Audio(this.state.story.sound).play();
+
         return (
             <div className="height100">
                 <div style={this.state.cheevos.length !== 0 ? noStyle : hiddenStyle}>
