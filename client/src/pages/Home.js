@@ -104,6 +104,7 @@ class Home extends Component {
             visibility: "hidden"
         };
 
+        console.log(this.state.story);
         if (this.state.story.sound !== undefined)
             new Audio(this.state.story.sound).play();
 
