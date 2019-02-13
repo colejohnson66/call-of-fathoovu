@@ -27,6 +27,8 @@ router.post("/stories/bulkInsert", (req, res) => {
             obj.choices = data[path].choices;
             if (data[path].cheevo)
                 obj.cheevo = data[path].cheevo;
+            if (data[path].sound)
+                obj.sound = data[path].sound;
 
             obj.validateSync();
             obj.save();
