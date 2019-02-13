@@ -33,7 +33,8 @@
                 "text": "Eat an Oreo",
                 "goto": "eat-an-oreo"
             }
-        ]
+        ],
+        "sound": "../sounds/phone_cellular.mp3"
     },
     "eat-an-oreo": {
         "text": "You savor the delicious treat.  It's flavor is incredible!",
@@ -43,7 +44,8 @@
                 "text": "Continue...",
                 "goto": "eat-an-oreo2"
             }
-        ]
+        ],
+        "sound": "../sounds/chomp.mp3"
     },
     "eat-an-oreo2": {
         "text": "You contemplate that this Oreo was perhaps too good, and you start seeing colors.",
@@ -1707,7 +1709,7 @@
         "choices": [
             {
                 "text": "Continue...",
-                "goto": "init"
+                "goto": "hurl-another-book2"
             }
         ]
     },
@@ -1717,7 +1719,7 @@
         "choices": [
             {
                 "text": "Continue...",
-                "goto": "init"
+                "goto": "hurl-another-book3"
             }
         ]
     },
@@ -1727,7 +1729,7 @@
         "choices": [
             {
                 "text": "Continue...",
-                "goto": "init"
+                "goto": "hurl-another-book4"
             }
         ]
     },
