@@ -19,11 +19,9 @@ class NameInput extends Component {
         api.user.create(username, password).then((data) => {
             // check if user already exists. if they don't call setUser
             if (data.status === 200) {
-                console.log("user doesn't exist");
                 this.props.setUser(username, password);
                 this.setState({ invalidPassword: false });
             } else {
-                console.log("user exists");
                 this.setState({ invalidPassword: true });
             }
         });
