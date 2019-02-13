@@ -73,7 +73,7 @@ body {
 .fathoovuText, .lepText {
     color: green;
 }
-.cultistText, .strangerText {
+.cultistText, .strangerText, .invalid {
     color: red;
 }
 
