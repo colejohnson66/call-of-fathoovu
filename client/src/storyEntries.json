@@ -8,7 +8,7 @@
                 "text": "Continue...",
                 "goto": "init2"
             }
-        ]
+        ]        
     },
     "init2": {
         "text": "Lightning flashes and your power goes out...",

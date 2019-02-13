@@ -19,8 +19,7 @@ class Home extends Component {
                     "text": "Continue...",
                     "goto": "init2"
                 }
-            ],
-            sound: "../sounds/Rain-and-thunder-loop.mp3",
+            ]
         },
         cheevos: []
     };
@@ -105,6 +104,7 @@ class Home extends Component {
             visibility: "hidden"
         };
 
+        console.log(this.state.story);
         if (this.state.story.sound !== undefined)
             new Audio(this.state.story.sound).play();
 
