@@ -18,7 +18,8 @@
                 "text": "Continue...",
                 "goto": "init3"
             }
-        ]
+        ],
+        "sound": "../sounds/thunder-rumble.mp3"
     },
     "init3": {
         "text": "Your phone begins ringing, from an unknown caller.",
