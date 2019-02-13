@@ -9,6 +9,7 @@ import api from "../api";
 class Home extends Component {
     state = {
         name: "",
+        password: "",
         story: {
             //path: "init",
             text: "It is an average Friday night.  You are at home, sitting through a dark and stormy night...",
@@ -18,15 +19,13 @@ class Home extends Component {
                     "text": "Continue...",
                     "goto": "init2"
                 }
-            ],
-            password: ""
+            ]
         },
         cheevos: []
     };
 
     componentDidMount = () => {
         api.stories.getByPath("init").then((data) => {
-            console.log(data[0]);
             this.setState({
                 story: data[0]
             });
@@ -34,7 +33,6 @@ class Home extends Component {
     }
 
     setStoryEntry = (goto) => {
-        console.log(goto);
         // Ask for name again
         if (goto === "init")
             this.setState({ name: "", password: "" });
@@ -58,9 +56,17 @@ class Home extends Component {
 
         // get new story
         api.stories.getByPath(goto).then((data) => {
-            console.log(data[0]);
-            this.setState({
-                story: data[0]
+            let pathObj = data[0];
+            this.setState({ story: pathObj });
+            if (pathObj.cheevo !== undefined)
+                this.giveCheevo(pathObj.cheevo);
+        });
+    }
+
+    giveCheevo = (cheevo) => {
+        api.user.addAchievement(this.state.name, this.state.password, cheevo).then((data) => {
+            api.user.getAchievements(this.state.name, this.state.password).then((data) => {
+                // Do something with data.data (it contains the list of cheevos)
             });
         });
     }
@@ -98,7 +104,8 @@ class Home extends Component {
             visibility: "hidden"
         };
 
-        console.log(this.state.story);
+        if (this.state.story.sound !== undefined)
+            new Audio(this.state.story.sound).play();
 
         return (
             <div className="height100">

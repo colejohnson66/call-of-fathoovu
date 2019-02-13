@@ -25,6 +25,8 @@ router.post("/stories/bulkInsert", (req, res) => {
             obj.text = data[path].text;
             obj.imagePath = data[path].image;
             obj.choices = data[path].choices;
+            if (data[path].cheevo)
+                obj.cheevo = data[path].cheevo;
 
             obj.validateSync();
             obj.save();
@@ -41,8 +43,13 @@ router.post("/stories/bulkInsert", (req, res) => {
 router.post("/user/create", (req, res) => {
     User.findOne({ username: req.body.username }).then((data) => {
         // don't create the user if they already exist
-        if (data !== null)
-            return res.status(400).json(data);
+        if (data !== null) {
+            // check password
+            let match = bcrypt.compareSync(req.body.password, data.password);
+            if (!match)
+                return res.status(400).json({});
+            return res.json(data);
+        }
 
         let user = new User();
         user.username = req.body.username;

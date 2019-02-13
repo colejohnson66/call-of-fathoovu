@@ -7,6 +7,7 @@ const StoryPathSchema = new Schema({
         type: String,
         required: true
     },
+    cheevo: String,
     text: {
         type: String,
         required: true
