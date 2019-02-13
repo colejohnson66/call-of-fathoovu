@@ -19,7 +19,8 @@ const StoryPathSchema = new Schema({
     choices: {
         type: Array,
         required: true
-    }
+    },
+    sound: String
 });
 
 module.exports = mongoose.model("StoryPath", StoryPathSchema);
