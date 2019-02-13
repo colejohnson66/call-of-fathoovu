@@ -46,7 +46,7 @@
     },
     "eat-an-oreo2": {
         "text": "You contemplate that this Oreo was perhaps too good, and you start seeing colors.",
-        "image": "../images/seeingcolors.jpg",
+        "image": ".https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "Panic and drink water",
@@ -109,8 +109,8 @@
         ]
     },
     "enjoy-the-trip": {
-        "text": "You relax on your couch as your tv begins to display your love of the sweet tasty treat you just consumed.  You begin to laugh.  From behind you hear a bottle break, seemingly from the direction of your bathroom.",
-        "image": "../images/dancingoreo.gif",
+        "text": "You relax on your couch as your tv begins to display oreo dancing gif.  You begin to laugh.  From behind you hear a bottle break, seemingly from the direction of your bathroom.",
+        "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "Investigate the noise",
@@ -285,7 +285,7 @@
         ]
     },
     "ask-its-name2": {
-        "text": "It looks at you and replies, <span class='fathoovuText'>\"Well, my name is Fathoovu, and I'm here to bounce on your bed and maybe make a new friend, depending on if you're cool enough, that is.\"</span>",
+        "text": "It looks at you and replies, \"Well, my name is Fathoovu, and I'm here to bounce on your bed and maybe make a new friend, depending on if you're cool enough, that is.\"",
         "image": "../images/189.jpg",
         "choices": [
             {
@@ -299,7 +299,7 @@
         ]
     },
     "you-arent-welcome": {
-        "text": "<span class='fathoovuText'>\"Okay.\"</span>  He walks out the door.  That was easy.  You survived!",
+        "text": "\"Okay.\"  He walks out the door.  That was easy.  You survived!",
         "image": "../images/206.jpg",
         "choices": [
             {
@@ -319,7 +319,7 @@
         ]
     },
     "im-more-than-cool2": {
-        "text": "<span class='fathoovuText'>\"Alright, let's jam.\"</span>",
+        "text": "\"Alright, let's jam.\"",
         "image": "../images/222.jpg",
         "choices": [
             {
@@ -429,7 +429,7 @@
         ]
     },
     "eat-another-oreo3": {
-        "text": "A magical leprechaun appears and says <span class='lepText'>\"Aye laddie, would ya like ta find me pot o' gold?  Just follow me rainbow!\"</span>",
+        "text": "A magical leprechaun appears and says \"Aye laddie, would ya like ta find me pot o' gold?  Just follow me rainbow!\"",
         "image": "../images/lep1.jpg",
         "choices": [
             {
@@ -443,18 +443,8 @@
         ]
     },
     "follow-the-rainbow": {
-        "text": "You immediately set forth climbing the rainbow.  You eventually reach the clouds where it is raining skittles and find a floating castle in the sky.",
-        "image": "../images/skycastle.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "follow-the-rainbow2"
-            }
-        ]
-    },
-    "follow-the-rainbow2": {
-        "text": "You traverse the cloud tops and come to the front gate, where a robot eyes you cautiously.  It states, <span class='roboText'>\"Hello, <name>.  We have been waiting for you.\"</span>",
-        "image": "../images/robogate.jpg",
+        "text": "You immediately set forth climbing the rainbow.  You eventually reach the clouds where it is raining skittles and find a floating temple in the sky.  You traverse the cloud tops and come to the front gate, where a robot eyes you cautiously.  It states, \"Hello, <name>.  We have been waiting for you.\"",
+        "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "\"Who is we?\"",
@@ -467,28 +457,8 @@
         ]
     },
     "punch-the-leprechaun": {
-        "text": "You lay a sucker punch on the leprechaun before he can react.",
-        "image": "../images/leppunch.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "punch-the-leprechaun2"
-            }
-        ]
-    },
-    "punch-the-leprechaun2": {
-        "text": "He explodes into gold coins.",
-        "image": "../images/coinsplosion.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "punch-the-leprechaun3"
-            }
-        ]
-    },
-    "punch-the-leprechaun3": {
-        "text": "You gather them up and decide to invest the gold into going back to school to learn coding.",
-        "image": "../images/DCE.jpg",
+        "text": "You lay a sucker punch on the leprechaun before he can react, and two coins drop out of his ears.  He pulls out a shiv, and begins jigging around you.  You deftly dodge his attacks and uppercut him, and he explodes into gold coins.  You gather them up and decide to invest the gold into going back to school to learn coding.",
+        "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "THE END.  Restart?",
@@ -497,58 +467,8 @@
         ]
     },
     "who-is-we": {
-        "text": "The robot responds<span class='roboText'>\"You know who we are.  We control the horizontal and the vertical.\"</span>",
-        "image": "../images/robogate.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "who-is-we2"
-            }
-        ]
-    },
-    "who-is-we2": {
-        "text": "<span class='roboText'>\"We are the ones who are feeding you what your eyes currently feast upon.  I am merely their avatar.  Two of our three hive minds believe we are going too far in letting you come this far.\"</span>",
-        "image": "../images/robogate.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "who-is-we3"
-            }
-        ]
-    },
-    "who-is-we3": {
-        "text": "<span class='roboText'>\"To our cloud fortress.\"</span>",
-        "image": "../images/robogate2.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "who-is-we4"
-            }
-        ]
-    },
-    "who-is-we4": {
-        "text": "<span class='roboText'>\"Over the rainbow.\"</span>",
-        "image": "../images/robogate3.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "who-is-we5"
-            }
-        ]
-    },
-    "who-is-we5": {
-        "text": "<span class='roboText'>\"Talking to a robot.\"</span>",
-        "image": "../images/robogate4.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "who-is-we6"
-            }
-        ]
-    },
-    "who-is-we6": {
-        "text": "<span class='roboText'>\"But here we are.  We merely abide.  Is that enough of an answer for you?\"</span>",
-        "image": "../images/robogate.jpg",
+        "text": "The robot responds\"You know who we are.  We control the horizontal and the vertical.  We are the ones who are feeding you what your eyes currently feast upon.  I am merely their avatar.  Two of our three hive minds believe we are going too far in letting you come this far.  To our cloud fortress.  Over the rainbow.  Talking to a robot.  But here we are.  We merely abide.  Is that enough of an answer for you?\"",
+        "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "\"Yes.\"",
@@ -561,8 +481,8 @@
         ]
     },
     "outta-my-way-clunker": {
-        "text": "<span class='roboText'>\"I can't let you do that, <name>.\"</span>  It's eyes light up and a beam erupts from it's visor.  You disintigrate, your last thought being \"Perhaps I shouldn't insult robots.\"",
-        "image": "../images/robokill.jpg",
+        "text": "\"I can't let you do that, <name>.\"  It's eyes light up and a beam erupts from it's visor.  You disintigrate, your last thought being \"Perhaps I shouldn't insult robots.\"",
+        "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "You are Dead.  Game Over.  Restart?",
@@ -571,48 +491,8 @@
         ]
     },
     "robot-yes": {
-        "text": "<span class='roboText'>\"Cool.  Cool cool cool.  Coolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcool.\"</span>",
-        "image": "../images/robogate.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "robot-yes2"
-            }
-        ]
-    },
-    "robot-yes2": {
-        "text": "The robot explodes.",
-        "image": "../images/roboexplode.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "robot-yes3"
-            }
-        ]
-    },
-    "robot-yes3": {
-        "text": "Inside of its body you find a script to 'The Call of Fathoovu'.  You begin turning the pages.  \"Wow, really dodged that bullet.\"",
-        "image": "../images/script.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "robot-yes4"
-            }
-        ]
-    },
-    "robot-yes4": {
-        "text": "Then your eyes go wide with shock.  \"No.  This can't be how it ends.  NO!  NO!  PLEASE NO!\"",
-        "image": "../images/script.jpg",
-        "choices": [
-            {
-                "text": "Continue...",
-                "goto": "robot-yes5"
-            }
-        ]
-    },
-    "robot-yes5": {
-        "text": "Thomas the Tank Engine wearing a durag, smoking a blunt, and holding a pistol runs you over.  <span class='tomText'>\"Choo choo motha fucka!\"</span>  You got got.",
-        "image": "../images/thomasend.jpg",
+        "text": "\"Cool.  Cool cool cool.  Coolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcool.\"  The robot explodes.  Inside of its body you find a script to this game.  You begin turning the pages.  \"Wow, really dodged that bullet.\"  Then your eyes go wide with shock.  \"No.  This can't be how it ends.  NO!  NO!  PLEASE NO!\"  Thomas the Tank Engine wearing a durag, smoking a blunt, and holding a pistol runs you over.  \"Choo choo motha fucka!\"  You got got.",
+        "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "You are dead.  Game over.  Restart?",
@@ -621,8 +501,8 @@
         ]
     },
     "robot-no": {
-        "text": "<span class='roboText'>\"Well too bad.  I'd like to say it was a pleasure to meet you, but I was programmed to never lie.  Next time try picking less ridiculous options.  Or don't.  See if I care.  Spoiler alert: I don't.  Also, you lose.  Game over.  Good day.\"</span>",
-        "image": "../images/robogate.jpg",
+        "text": "\"Well too bad.  I'd like to say it was a pleasure to meet you, but I was programmed to never lie.  Next time try picking less ridiculous options.  Or don't.  See if I care.  Spoiler alert: I don't.  Also, you lose.  Game over.  Good day.",
+        "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "You lose.  Good day.  Restart?",
@@ -631,7 +511,7 @@
         ]
     },
     "answer-the-call": {
-        "text": "You answer your phone and only hear ragged breathing...\"Who is this?\" you ask.  …  <span class='strangerText'>\"You are in great danger. He sees you. He knows where you live. …He knows your dreams and wishes to feast on your soul.  Run while you still can!\"</span>",
+        "text": "You answer your phone and only hear ragged breathing...\"Who is this?\" you ask.  …  \"You are in great danger. He sees you. He knows where you live. …He knows your dreams and wishes to feast on your soul.  Run while you still can!\"",
         "image": "../images/063.jpg",
         "choices": [
             {
@@ -649,7 +529,7 @@
         ]
     },
     "ask-who-he-is-talking-about": {
-        "text": "<span class='strangerText'>\"Fathoovu, duh!  You have no time!  You must escape before he ki-\"</span>  A loud scream is heard over the phone, then dead silence.  Lightning strikes again outside, with thunder quick behind.",
+        "text": "\"Fathoovu, duh!  You have no time!  You must escape before he ki-\"  A loud scream is heard over the phone, then dead silence.  Lightning strikes again outside, with thunder quick behind.",
         "image": "../images/063.jpg",
         "choices": [
             {
@@ -707,7 +587,7 @@
         ]
     },
     "turn-on-your-tv4": {
-        "text": "Fathoovu appears on screen and an ominous voice belts out <span class='fathoovuText'>\"Your soul is mine\"</span>",
+        "text": "Fathoovu appears on screen and an ominous voice belts out \"Your soul is mine\"",
         "image": "../images/monstertv.jpg",
         "choices": [
             {
@@ -1139,7 +1019,7 @@
         ]
     },
     "worship-fathoovu2": {
-        "text": "A cultist in a robe enters your room, holding a candle.  <span class='cultistText'>“Come with me.”</span>",
+        "text": "A cultist in a robe enters your room, holding a candle.  “Come with me.”",
         "image": "../images/546.jpg",
         "choices": [
             {
@@ -1149,7 +1029,7 @@
         ]
     },
     "worship-fathoovu3": {
-        "text": "He leads you to your living room and sits across from you.  <span class='cultistText'>\"You will serve your new master well.\"</span>",
+        "text": "He leads you to your living room and sits across from you.  \"You will serve your new master well.\"",
         "image": "../images/572.jpg",
         "choices": [
             {
@@ -1159,7 +1039,7 @@
         ]
     },
     "i-obey": {
-        "text": "<span class='cultistText'>\"You will no longer need your eyes.  The master already sees all.\"</span>",
+        "text": "\"You will no longer need your eyes.  The master already sees all.\"",
         "image": "../images/572.jpg",
         "choices": [
             {
@@ -1259,7 +1139,7 @@
         ]
     },
     "no-its-not": {
-        "text": "<span class='fathoovuText'>\"Excuse me?\"</span>",
+        "text": "\"Excuse me?\"",
         "image": "../images/monstertv.jpg",
         "choices": [
             {
@@ -1273,7 +1153,7 @@
         ]
     },
     "you-heard-me": {
-        "text": "<span class='fathoovuText'>\"My mistake.  I apologize.\"</span>",
+        "text": "\"My mistake.  I apologize.\"",
         "image": "../images/monstertv.jpg",
         "choices": [
             {
@@ -1408,7 +1288,7 @@
     },
     "google-fathoovu2": {
         "text": "No results come up.  No images.  No maps.  No video.  Nothing.  Your screen however, begins to glitch.",
-        "image": "../images/685.jpg",
+        "image": "https://via.placeholder.com/1000x500/",
         "choices": [
             {
                 "text": "Continue...",
@@ -1481,7 +1361,7 @@
         ]
     },
     "updog": {
-        "text": "The creature looks confused and cocks its head to the side.  … <span class='fathoovuText'>\"What's updog?\"</span>  \"Not much, you?\" you triumphantly reply. … <span class='fathoovuText'>\"Funny.  Funny joke.  You are a jokester.  I like jokes.\"</span>",
+        "text": "The creature looks confused and cocks its head to the side.  … \"What's updog?\"  \"Not much, you?\" you triumphantly reply. … \"Funny.  Funny joke.  You are a jokester.  I like jokes.\"",
         "image": "../images/glitchscreen.jpg",
         "choices": [
             {
@@ -1499,7 +1379,7 @@
         ]
     },
     "yeah-its-a-good-one": {
-        "text": "<span class='fathoovuText'>\"No, but let's get married.\"</span>",
+        "text": "\"No, but let's get married.\"",
         "image": "../images/glitchscreen.jpg",
         "choices": [
             {
@@ -1513,7 +1393,7 @@
         ]
     },
     "your-face-is-a-joke": {
-        "text": "<span class='fathoovuText'>\"The only joke here is your continued existence.\"</span>",
+        "text": "\"The only joke here is your continued existence.\"",
         "image": "../images/glitchscreen.jpg",
         "choices": [
             {
@@ -1533,7 +1413,7 @@
         ]
     },
     "this-is-ridiculous": {
-        "text": "<span class='fathoovuText'>\"Same.\"</span>",
+        "text": "\"Same.\"",
         "image": "../images/glitchscreencool.jpg",
         "choices": [
             {
@@ -1587,7 +1467,7 @@
         ]
     },
     "what-do-you-want-with-me": {
-        "text": "The maniac responds, <span class='maniacText'>\"I can't let him have you.  If you knew more, you would be thanking me.\"</span>  He lunges towards you...",
+        "text": "The maniac responds, \"I can't let him have you.  If you knew more, you would be thanking me.\"  He lunges towards you...",
         "image": "../images/737.jpg",
         "choices": [
             {
@@ -1691,7 +1571,7 @@
         ]
     },
     "kick-the-knife4": {
-        "text": "You hear a deep breath right behind you.  You turn around, and he is face to face with you.  <span class='maniacText'>\"I'm sorry, but I can't let him have you.\"</span>",
+        "text": "You hear a deep breath right behind you.  You turn around, and he is face to face with you.  \"I'm sorry, but I can't let him have you.\"",
         "image": "../images/822.jpg",
         "choices": [
             {
@@ -1731,7 +1611,7 @@
         ]
     },
     "hurl-another-book4": {
-        "text": "<span class='maniacText'>\"Dude, I think you broke the game.\"</span> ",
+        "text": "\"Dude, I think you broke the game.\" ",
         "image": "../images/fourthwall.jpg",
         "choices": [
             {

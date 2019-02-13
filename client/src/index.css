@@ -67,6 +67,16 @@ body {
     background-color: white;
 }
 
-.invalid {
+.maniacText, .roboText {
+    color: slategrey;
+}
+.fathoovuText, .lepText {
+    color: green;
+}
+.cultistText, .strangerText, .invalid {
     color: red;
+}
+
+.tomText {
+    color: blue;
 }
