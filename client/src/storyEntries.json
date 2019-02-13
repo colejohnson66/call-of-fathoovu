@@ -46,7 +46,7 @@
     },
     "eat-an-oreo2": {
         "text": "You contemplate that this Oreo was perhaps too good, and you start seeing colors.",
-        "image": ".https://via.placeholder.com/1000x500/",
+        "image": "../images/seeingcolors.jpg",
         "choices": [
             {
                 "text": "Panic and drink water",
