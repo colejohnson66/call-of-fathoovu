@@ -304,7 +304,8 @@
                 "text": "Continue...",
                 "goto": "ask-its-name2"
             }
-        ]
+        ],
+        "sound": "../sounds/dragon_ball_z_scream.mp3"
     },
     "ask-its-name2": {
         "text": "It looks at you and replies, <span class='fathoovuText'>\"Well, my name is Fathoovu, and I'm here to bounce on your bed and maybe make a new friend, depending on if you're cool enough, that is.\"</span>",
@@ -318,7 +319,8 @@
                 "text": "\"I'm more than cool enough\"",
                 "goto": "im-more-than-cool"
             }
-        ]
+        ],
+        "sound": "../sounds/Bedspring-Squeak.mp3"
     },
     "you-arent-welcome": {
         "text": "<span class='fathoovuText'>\"Okay.\"</span>  He walks out the door.  That was easy.  You survived!",
@@ -328,7 +330,8 @@
                 "text": "THE END.  Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/Close-Door.mp3"
     },
     "im-more-than-cool": {
         "text": "Fathoovu nods knowingly.",
@@ -338,7 +341,8 @@
                 "text": "Continue...",
                 "goto": "im-more-than-cool2"
             }
-        ]
+        ],
+        "sound": "../sounds/Monster-Laugh.mp3"
     },
     "im-more-than-cool2": {
         "text": "<span class='fathoovuText'>\"Alright, let's jam.\"</span>",
@@ -348,7 +352,8 @@
                 "text": "Continue...",
                 "goto": "im-more-than-cool3"
             }
-        ]
+        ],
+        "sound": "../sounds/1-person-cheering.mp3"
     },
     "im-more-than-cool3": {
         "text": "Fathoovu pulls out a guitar and starts rocking out.",
@@ -358,7 +363,8 @@
                 "text": "Continue...",
                 "goto": "im-more-than-cool4"
             }
-        ]
+        ],
+        "sound": "../sounds/bizarre-guitar.mp3"
     },
     "im-more-than-cool4": {
         "text": "YEARS LATER",
@@ -368,7 +374,8 @@
                 "text": "Continue...",
                 "goto": "im-more-than-cool5"
             }
-        ]
+        ],
+        "sound": "../sounds/Time-Warp.mp3"
     },
     "im-more-than-cool5": {
         "text": "You have successfully become an agent for the world's most popular band 'Fathoovu 2 Electric Boogaloo', and spend your days swimming in money, being filthy rich...",
@@ -378,7 +385,8 @@
                 "text": "Continue...",
                 "goto": "im-more-than-cool6"
             }
-        ]
+        ],
+        "sound": "../sounds/Cheering.mp3"
     },
     "im-more-than-cool6": {
         "text": "...and drinking mai tais on the beach.  You truly are cool.",
@@ -388,7 +396,8 @@
                 "text": "THE END.  Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/Seagull-Call.mp3"
     },
     "accept-your-fate": {
         "text": "You begin to cower up against the wall as the creature comes closer and closer.  You whimper...",
@@ -420,7 +429,8 @@
                 "text": "Continue...",
                 "goto": "try-to-bargain2"
             }
-        ]
+        ],
+        "sound": "../sounds/Please.mp3"
     },
     "try-to-bargain2": {
         "text": "...then roars again.  It leaps at you, and you die of fright.",
@@ -430,7 +440,8 @@
                 "text": "Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/Torture.mp3"
     },
     "eat-another-oreo": {
         "text": "You decide to eat another Oreo.",
@@ -440,7 +451,8 @@
                 "text": "Continue...",
                 "goto": "eat-another-oreo2"
             }
-        ]
+        ],
+        "sound": "../sounds/chomp.mp3"
     },
     "eat-another-oreo2": {
         "text": "This one hits you like a freight train.  You stumble back onto your couch and sink into it, as a rainbow bursts through your ceiling.",
@@ -450,7 +462,8 @@
                 "text": "Continue...",
                 "goto": "eat-another-oreo3"
             }
-        ]
+        ],
+        "sound": "../sounds/magic-chime-longer.mp3"
     },
     "eat-another-oreo3": {
         "text": "A magical leprechaun appears and says <span class='lepText'>\"Aye laddie, would ya like ta find me pot o' gold?  Just follow me rainbow!\"</span>",
@@ -464,7 +477,8 @@
                 "text": "Punch the leprechaun",
                 "goto": "punch-the-leprechaun"
             }
-        ]
+        ],
+        "sound": "../sounds/Bagpipes.mp3"
     },
     "follow-the-rainbow": {
         "text": "You immediately set forth climbing the rainbow.  You eventually reach the clouds where it is raining skittles and find a floating castle in the sky.",
@@ -474,7 +488,8 @@
                 "text": "Continue...",
                 "goto": "follow-the-rainbow2"
             }
-        ]
+        ],
+        "sound": "../sounds/Party-People.mp3"
     },
     "follow-the-rainbow2": {
         "text": "You traverse the cloud tops and come to the front gate, where a robot eyes you cautiously.  It states, <span class='roboText'>\"Hello, <name>.  We have been waiting for you.\"</span>",
@@ -488,7 +503,8 @@
                 "text": "\"Outta my way, clunker!\"",
                 "goto": "outta-my-way-clunker"
             }
-        ]
+        ],
+        "sound": "../sounds/R2D2-Again.mp3"
     },
     "punch-the-leprechaun": {
         "text": "You lay a sucker punch on the leprechaun before he can react.",
@@ -498,7 +514,8 @@
                 "text": "Continue...",
                 "goto": "punch-the-leprechaun2"
             }
-        ]
+        ],
+        "sound": "../sounds/punch-leprechaun.mp3"
     },
     "punch-the-leprechaun2": {
         "text": "He explodes into gold coins.",
@@ -508,7 +525,8 @@
                 "text": "Continue...",
                 "goto": "punch-the-leprechaun3"
             }
-        ]
+        ],
+        "sound": "../sounds/sonic-rings.mp3"
     },
     "punch-the-leprechaun3": {
         "text": "You gather them up and decide to invest the gold into going back to school to learn coding.",
@@ -528,7 +546,8 @@
                 "text": "Continue...",
                 "goto": "who-is-we2"
             }
-        ]
+        ],
+        "sound": "../sounds/Sci-Fi-Robot.mp3"
     },
     "who-is-we2": {
         "text": "<span class='roboText'>\"We are the ones who are feeding you what your eyes currently feast upon.  I am merely their avatar.  Two of our three hive minds believe we are going too far in letting you come this far.\"</span>",
@@ -538,7 +557,8 @@
                 "text": "Continue...",
                 "goto": "who-is-we3"
             }
-        ]
+        ],
+        "sound": "../sounds/Robot-Computing.mp3"
     },
     "who-is-we3": {
         "text": "<span class='roboText'>\"To our cloud fortress.\"</span>",
@@ -548,7 +568,8 @@
                 "text": "Continue...",
                 "goto": "who-is-we4"
             }
-        ]
+        ],
+        "sound": "../sounds/Buzz-Lightyear-To-Infinity-And-Beyond-Sound-Effect.mp3"
     },
     "who-is-we4": {
         "text": "<span class='roboText'>\"Over the rainbow.\"</span>",
@@ -642,7 +663,8 @@
                 "text": "You are dead.  Game over.  Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/steam-train-whistle.mp3"
     },
     "robot-no": {
         "text": "<span class='roboText'>\"Well too bad.  I'd like to say it was a pleasure to meet you, but I was programmed to never lie.  Next time try picking less ridiculous options.  Or don't.  See if I care.  Spoiler alert: I don't.  Also, you lose.  Game over.  Good day.\"</span>",
