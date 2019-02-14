@@ -14,7 +14,7 @@ body {
 }
 
 .height100 {
-    height:100%;
+    height: 100%;
 }
 
 .mainContainer {
@@ -22,31 +22,31 @@ body {
 }
 
 .imageContainer {
-    border: 115px solid transparent;
-    -webkit-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
+    border: 158px solid transparent;
+    -webkit-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 12% 5% stretch;
     -o-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
 }
 
 .height100 img {
-        position: relative;
-        margin: 3% 0% 0% 11%;
-        border-radius: 5%;
-    }
+    position: relative;
+    margin: 10% 0% 0% 25%;
+    border-radius: 5%;
+}
 
 .imageContainer h3 {
-    background-color: rgba(255,255,255,0.85);
+    background-color: rgba(255, 255, 255, 0.85);
     position: relative;
+    z-index: 1;
     top: -100px;
-    z-index: 1;    
     text-align: center;
 }
 
 .imageContainer img {
     position: relative;
-    margin: -13% 0% -5% 3%; 
+    margin: -10% 0% -5% -2%;;
     border-radius: 5%;
-    height: 500px;
-    width: 1000px;
+    width: 1689px;
+    height: 790px;
 }
 
 .optionsDiv {
@@ -63,6 +63,52 @@ body {
     top: -81px;
 }
 
-#titlebutton, #passwordInput, #nameInput, #cheevoButton{
+#titlebutton, #passwordInput, #nameInput, #cheevoButton {
     background-color: white;
+}
+
+.maniacText, .roboText {
+    color: slategrey;
+}
+
+.fathoovuText, .lepText {
+    color: green;
+}
+
+.cultistText, .strangerText, .invalid {
+    color: red;
+}
+
+.tomText {
+    color: blue;
+}
+
+
+@media only screen and (max-width: 1366px) {
+    .height100 img {
+        position: relative;
+        margin: 5% 0% 0% 16%;
+        border-radius: 5%;
+    }
+    .imageContainer img {
+        position: relative;
+        margin: -13% 0% -5% 3%;
+        border-radius: 5%;
+        height: 500px;
+        width: 1000px;
+    }
+    .imageContainer h3 {
+        background-color: rgba(255, 255, 255, 0.85);
+        position: relative;
+        top: -100px;
+        z-index: 1;
+        text-align: center;
+    }
+    .imageContainer {
+        border: 115px solid transparent;
+        -webkit-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 12% 5% stretch;
+        -o-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
+    }
+    
+    
 }

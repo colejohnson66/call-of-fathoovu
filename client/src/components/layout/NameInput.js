@@ -19,11 +19,9 @@ class NameInput extends Component {
         api.user.create(username, password).then((data) => {
             // check if user already exists. if they don't call setUser
             if (data.status === 200) {
-                console.log("user doesn't exist");
                 this.props.setUser(username, password);
                 this.setState({ invalidPassword: false });
             } else {
-                console.log("user exists");
                 this.setState({ invalidPassword: true });
             }
         });
@@ -57,7 +55,7 @@ class NameInput extends Component {
                     <Button id="titlebutton" onClick={this.handleNameButtonClick}>BEGIN</Button>
                     <Button id="cheevoButton" onClick={this.handleCheevoButtonClick}>View 'Cheevos</Button>
                     <br />
-                    {this.state.invalidPassword ? <div>Invalid password</div> : <div></div>}
+                    {this.state.invalidPassword ? <div className="invalid">Invalid password</div> : <div></div>}
                 </div>
             </div>
         );

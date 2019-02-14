@@ -9,6 +9,7 @@ import api from "../api";
 class Home extends Component {
     state = {
         name: "",
+        password: "",
         story: {
             //path: "init",
             text: "It is an average Friday night.  You are at home, sitting through a dark and stormy night...",
@@ -18,15 +19,16 @@ class Home extends Component {
                     "text": "Continue...",
                     "goto": "init2"
                 }
-            ],
-            password: ""
+            ]
         },
+        sound: "../sounds/Rain-and-thunder-loop.mp3",
         cheevos: []
     };
 
+    sound = null;
+
     componentDidMount = () => {
         api.stories.getByPath("init").then((data) => {
-            console.log(data[0]);
             this.setState({
                 story: data[0]
             });
@@ -34,7 +36,9 @@ class Home extends Component {
     }
 
     setStoryEntry = (goto) => {
-        console.log(goto);
+        if (this.sound !== null)
+            this.sound.pause();
+
         // Ask for name again
         if (goto === "init")
             this.setState({ name: "", password: "" });
@@ -45,7 +49,6 @@ class Home extends Component {
             audio.play();
             setTimeout(() => {
                 img.className = "animated bounceInDown";
-                img.classList.add("animated", "bounceInDown");
                 img.style = "position:absolute; left:0; top:0; width:100%";
             }, 6.5 * 1000);
             setTimeout(() => {
@@ -59,9 +62,21 @@ class Home extends Component {
 
         // get new story
         api.stories.getByPath(goto).then((data) => {
-            console.log(data[0]);
-            this.setState({
-                story: data[0]
+            let pathObj = data[0];
+            this.setState({ story: pathObj });
+            if (pathObj.cheevo !== undefined)
+                this.giveCheevo(pathObj.cheevo);
+            if (pathObj.sound !== undefined) {
+                this.sound = new Audio(pathObj.sound);
+                this.sound.play();
+            }
+        });
+    }
+
+    giveCheevo = (cheevo) => {
+        api.user.addAchievement(this.state.name, this.state.password, cheevo).then((data) => {
+            api.user.getAchievements(this.state.name, this.state.password).then((data) => {
+                // Do something with data.data (it contains the list of cheevos)
             });
         });
     }
@@ -98,8 +113,6 @@ class Home extends Component {
             width: "100%",
             visibility: "hidden"
         };
-
-        console.log(this.state.story);
 
         return (
             <div className="height100">

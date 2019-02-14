@@ -7,6 +7,7 @@ const StoryPathSchema = new Schema({
         type: String,
         required: true
     },
+    cheevo: String,
     text: {
         type: String,
         required: true
@@ -18,7 +19,8 @@ const StoryPathSchema = new Schema({
     choices: {
         type: Array,
         required: true
-    }
+    },
+    sound: String
 });
 
 module.exports = mongoose.model("StoryPath", StoryPathSchema);

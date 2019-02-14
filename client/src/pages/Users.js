@@ -1,6 +1,6 @@
 import React from "react";
 
-const Users = () => (
+const User = () => (
   <div>
     <h1>Your Achievements</h1>
     <p>
@@ -10,4 +10,4 @@ const Users = () => (
   </div>
 );
 
-export default Users;
+export default User;

@@ -8,7 +8,7 @@
                 "text": "Continue...",
                 "goto": "init2"
             }
-        ]
+        ]        
     },
     "init2": {
         "text": "Lightning flashes and your power goes out...",
@@ -18,7 +18,8 @@
                 "text": "Continue...",
                 "goto": "init3"
             }
-        ]
+        ],
+        "sound": "../sounds/thunder-rumble.mp3"
     },
     "init3": {
         "text": "Your phone begins ringing, from an unknown caller.",
@@ -32,7 +33,8 @@
                 "text": "Eat an Oreo",
                 "goto": "eat-an-oreo"
             }
-        ]
+        ],
+        "sound": "../sounds/phone_cellular.mp3"
     },
     "eat-an-oreo": {
         "text": "You savor the delicious treat.  It's flavor is incredible!",
@@ -42,11 +44,12 @@
                 "text": "Continue...",
                 "goto": "eat-an-oreo2"
             }
-        ]
+        ],
+        "sound": "../sounds/chomp.mp3"
     },
     "eat-an-oreo2": {
         "text": "You contemplate that this Oreo was perhaps too good, and you start seeing colors.",
-        "image": ".https://via.placeholder.com/1000x500/",
+        "image": "../images/seeingcolors.jpg",
         "choices": [
             {
                 "text": "Panic and drink water",
@@ -56,7 +59,8 @@
                 "text": "Enjoy the trip",
                 "goto": "enjoy-the-trip"
             }
-        ]
+        ],
+        "sound": "../sounds/magic-chime.mp3"
     },
     "panic-and-drink-water": {
         "text": "You run into the bathroom...",
@@ -66,7 +70,8 @@
                 "text": "Continue...",
                 "goto": "panic-and-drink-water2"
             }
-        ]
+        ],
+        "sound": "../sounds/Wooden-Thump.mp3" 
     },
     "panic-and-drink-water2": {
         "text": "...",
@@ -86,7 +91,8 @@
                 "text": "Continue...",
                 "goto": "panic-and-drink-water4"
             }
-        ]
+        ],
+        "sound": "../sounds/Bathroom-Sink.mp3"
     },
     "panic-and-drink-water4": {
         "text": "...and begin chugging water.",
@@ -96,7 +102,8 @@
                 "text": "Continue...",
                 "goto": "panic-and-drink-water5"
             }
-        ]
+        ],
+        "sound": "../sounds/Drinking-Water.mp3"
     },
     "panic-and-drink-water5": {
         "text": "As you look up, you make the mistake of looking into the mirror, and instead of seeing yourself you see Fathoovu.  Fathoovu reaches through the mirror and kills you.",
@@ -106,11 +113,12 @@
                 "text": "YOU ARE DEAD.  Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/Demon_Your_Soul_is_mine.mp3"
     },
     "enjoy-the-trip": {
-        "text": "You relax on your couch as your tv begins to display oreo dancing gif.  You begin to laugh.  From behind you hear a bottle break, seemingly from the direction of your bathroom.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You relax on your couch as your tv begins to display your love of the sweet tasty treat you just consumed.  You begin to laugh.  From behind you hear a bottle break, seemingly from the direction of your bathroom.",
+        "image": "../images/dancingoreo.gif",
         "choices": [
             {
                 "text": "Investigate the noise",
@@ -120,7 +128,8 @@
                 "text": "Eat another oreo",
                 "goto": "eat-another-oreo"
             }
-        ]
+        ],
+        "sound": "../sounds/Civil-War-Drummer.mp3" 
     },
     "investigate-the-noise": {
         "text": "You go into your bathroom...",
@@ -130,7 +139,8 @@
                 "text": "Continue...",
                 "goto": "investigate-the-noise2"
             }
-        ]
+        ],
+        "sound": "../sounds/footsteps.mp3"
     },
     "investigate-the-noise2": {
         "text": "...to find a broken bottle, one that doesn't even look real, on the floor.",
@@ -154,7 +164,8 @@
                 "text": "Call the police",
                 "goto": "call-the-police"
             }
-        ]
+        ],
+        "sound": "../sounds/creeky-door.mp3"
     },
     "investigate-further": {
         "text": "You go into your bedroom...",
@@ -164,7 +175,8 @@
                 "text": "Continue...",
                 "goto": "investigate-further2"
             }
-        ]
+        ],
+        "sound": "../sounds/footsteps.mp3"
     },
     "investigate-further2": {
         "text": "...and find a weird creature, Fathoovu, standing on your bed. ",
@@ -174,7 +186,8 @@
                 "text": "Continue...",
                 "goto": "investigate-further3"
             }
-        ]
+        ],
+        "sound": "../sounds/scream.mp3"
     },
     "investigate-further3": {
         "text": "It immediately turns to you and glares into your eyes.",
@@ -188,7 +201,8 @@
                 "text": "Ask it's name",
                 "goto": "ask-its-name"
             }
-        ]
+        ],
+        "sound": "../sounds/black.mp3"
     },
     "call-the-police": {
         "text": "You pick up your phone and attempt to call the police.",
@@ -198,7 +212,8 @@
                 "text": "Continue...",
                 "goto": "call-the-police2"
             }
-        ]
+        ],
+        "sound": "../sounds/america-dial-tone.mp3"
     },
     "call-the-police2": {
         "text": "Your phone is dead, however.  And so are you, as an arm reaches out of your phone and kills you.",
@@ -208,7 +223,8 @@
                 "text": "YOU ARE DEAD. Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/Demon_Your_Soul_is_mine.mp3"
     },
     "run-away": {
         "text": "You begin to run away as you hear stomps behind you and an unholy roar.",
@@ -218,7 +234,8 @@
                 "text": "Continue...",
                 "goto": "run-away2"
             }
-        ]
+        ],
+        "sound": "../sounds/walk-and-grunt.mp3"
     },
     "run-away2": {
         "text": "...",
@@ -228,7 +245,8 @@
                 "text": "Continue...",
                 "goto": "run-away3"
             }
-        ]
+        ],
+        "sound": "../sounds/creeky-door.mp3"
     },
     "run-away3": {
         "text": "...You get to your front door and it is conveniently locked.",
@@ -238,7 +256,8 @@
                 "text": "Continue...",
                 "goto": "run-away4"
             }
-        ]
+        ],
+        "sound": "../sounds/Lock-And-Load.mp3"
     },
     "run-away4": {
         "text": "...",
@@ -248,7 +267,8 @@
                 "text": "Continue...",
                 "goto": "run-away5"
             }
-        ]
+        ],
+        "sound": "../sounds/walk-and-grunt.mp3"
     },
     "run-away5": {
         "text": "...",
@@ -258,7 +278,8 @@
                 "text": "Continue...",
                 "goto": "run-away6"
             }
-        ]
+        ],
+        "sound": "../sounds/Alligator-Crocodile-Growl.mp3"
     },
     "run-away6": {
         "text": "...",
@@ -272,7 +293,8 @@
                 "text": "Try to bargain with the creature",
                 "goto": "try-to-bargain"
             }
-        ]
+        ],
+        "sound": "../sounds/I_will_kill_you.mp3"
     },
     "ask-its-name": {
         "text": "You are having none of this.  You exclaim \"State your name and business, foul creature!\"",
@@ -285,7 +307,7 @@
         ]
     },
     "ask-its-name2": {
-        "text": "It looks at you and replies, \"Well, my name is Fathoovu, and I'm here to bounce on your bed and maybe make a new friend, depending on if you're cool enough, that is.\"",
+        "text": "It looks at you and replies, <span class='fathoovuText'>\"Well, my name is Fathoovu, and I'm here to bounce on your bed and maybe make a new friend, depending on if you're cool enough, that is.\"</span>",
         "image": "../images/189.jpg",
         "choices": [
             {
@@ -299,7 +321,7 @@
         ]
     },
     "you-arent-welcome": {
-        "text": "\"Okay.\"  He walks out the door.  That was easy.  You survived!",
+        "text": "<span class='fathoovuText'>\"Okay.\"</span>  He walks out the door.  That was easy.  You survived!",
         "image": "../images/206.jpg",
         "choices": [
             {
@@ -319,7 +341,7 @@
         ]
     },
     "im-more-than-cool2": {
-        "text": "\"Alright, let's jam.\"",
+        "text": "<span class='fathoovuText'>\"Alright, let's jam.\"</span>",
         "image": "../images/222.jpg",
         "choices": [
             {
@@ -376,7 +398,8 @@
                 "text": "Continue...",
                 "goto": "accept-your-fate2"
             }
-        ]
+        ],
+        "sound": "../sounds/Whimper.mp3"
     },
     "accept-your-fate2": {
         "text": "...and then it begins licking your toes.  It's your cat.  You get a moment of clarity and realize everything is going to be alright.  Although, in the back of your mind, you still wonder... 'who the heck is a Fathoovu?",
@@ -386,7 +409,8 @@
                 "text": "Your cat is purrfect.  Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/Short_Cow_MooMeow_Mix_Comm.mp3"
     },
     "try-to-bargain": {
         "text": "You try to bargain with the creature, asking what it wants.  It looks quizzically back at you...",
@@ -429,7 +453,7 @@
         ]
     },
     "eat-another-oreo3": {
-        "text": "A magical leprechaun appears and says \"Aye laddie, would ya like ta find me pot o' gold?  Just follow me rainbow!\"",
+        "text": "A magical leprechaun appears and says <span class='lepText'>\"Aye laddie, would ya like ta find me pot o' gold?  Just follow me rainbow!\"</span>",
         "image": "../images/lep1.jpg",
         "choices": [
             {
@@ -443,8 +467,18 @@
         ]
     },
     "follow-the-rainbow": {
-        "text": "You immediately set forth climbing the rainbow.  You eventually reach the clouds where it is raining skittles and find a floating temple in the sky.  You traverse the cloud tops and come to the front gate, where a robot eyes you cautiously.  It states, \"Hello, <name>.  We have been waiting for you.\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You immediately set forth climbing the rainbow.  You eventually reach the clouds where it is raining skittles and find a floating castle in the sky.",
+        "image": "../images/skycastle.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "follow-the-rainbow2"
+            }
+        ]
+    },
+    "follow-the-rainbow2": {
+        "text": "You traverse the cloud tops and come to the front gate, where a robot eyes you cautiously.  It states, <span class='roboText'>\"Hello, <name>.  We have been waiting for you.\"</span>",
+        "image": "../images/robogate.jpg",
         "choices": [
             {
                 "text": "\"Who is we?\"",
@@ -457,8 +491,28 @@
         ]
     },
     "punch-the-leprechaun": {
-        "text": "You lay a sucker punch on the leprechaun before he can react, and two coins drop out of his ears.  He pulls out a shiv, and begins jigging around you.  You deftly dodge his attacks and uppercut him, and he explodes into gold coins.  You gather them up and decide to invest the gold into going back to school to learn coding.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "You lay a sucker punch on the leprechaun before he can react.",
+        "image": "../images/leppunch.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "punch-the-leprechaun2"
+            }
+        ]
+    },
+    "punch-the-leprechaun2": {
+        "text": "He explodes into gold coins.",
+        "image": "../images/coinsplosion.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "punch-the-leprechaun3"
+            }
+        ]
+    },
+    "punch-the-leprechaun3": {
+        "text": "You gather them up and decide to invest the gold into going back to school to learn coding.",
+        "image": "../images/DCE.jpg",
         "choices": [
             {
                 "text": "THE END.  Restart?",
@@ -467,8 +521,58 @@
         ]
     },
     "who-is-we": {
-        "text": "The robot responds\"You know who we are.  We control the horizontal and the vertical.  We are the ones who are feeding you what your eyes currently feast upon.  I am merely their avatar.  Two of our three hive minds believe we are going too far in letting you come this far.  To our cloud fortress.  Over the rainbow.  Talking to a robot.  But here we are.  We merely abide.  Is that enough of an answer for you?\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "The robot responds<span class='roboText'>\"You know who we are.  We control the horizontal and the vertical.\"</span>",
+        "image": "../images/robogate.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "who-is-we2"
+            }
+        ]
+    },
+    "who-is-we2": {
+        "text": "<span class='roboText'>\"We are the ones who are feeding you what your eyes currently feast upon.  I am merely their avatar.  Two of our three hive minds believe we are going too far in letting you come this far.\"</span>",
+        "image": "../images/robogate.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "who-is-we3"
+            }
+        ]
+    },
+    "who-is-we3": {
+        "text": "<span class='roboText'>\"To our cloud fortress.\"</span>",
+        "image": "../images/robogate2.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "who-is-we4"
+            }
+        ]
+    },
+    "who-is-we4": {
+        "text": "<span class='roboText'>\"Over the rainbow.\"</span>",
+        "image": "../images/robogate3.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "who-is-we5"
+            }
+        ]
+    },
+    "who-is-we5": {
+        "text": "<span class='roboText'>\"Talking to a robot.\"</span>",
+        "image": "../images/robogate4.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "who-is-we6"
+            }
+        ]
+    },
+    "who-is-we6": {
+        "text": "<span class='roboText'>\"But here we are.  We merely abide.  Is that enough of an answer for you?\"</span>",
+        "image": "../images/robogate.jpg",
         "choices": [
             {
                 "text": "\"Yes.\"",
@@ -481,8 +585,8 @@
         ]
     },
     "outta-my-way-clunker": {
-        "text": "\"I can't let you do that, <name>.\"  It's eyes light up and a beam erupts from it's visor.  You disintigrate, your last thought being \"Perhaps I shouldn't insult robots.\"",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "<span class='roboText'>\"I can't let you do that, <name>.\"</span>  It's eyes light up and a beam erupts from it's visor.  You disintigrate, your last thought being \"Perhaps I shouldn't insult robots.\"",
+        "image": "../images/robokill.jpg",
         "choices": [
             {
                 "text": "You are Dead.  Game Over.  Restart?",
@@ -491,8 +595,48 @@
         ]
     },
     "robot-yes": {
-        "text": "\"Cool.  Cool cool cool.  Coolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcool.\"  The robot explodes.  Inside of its body you find a script to this game.  You begin turning the pages.  \"Wow, really dodged that bullet.\"  Then your eyes go wide with shock.  \"No.  This can't be how it ends.  NO!  NO!  PLEASE NO!\"  Thomas the Tank Engine wearing a durag, smoking a blunt, and holding a pistol runs you over.  \"Choo choo motha fucka!\"  You got got.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "<span class='roboText'>\"Cool.  Cool cool cool.  Coolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcoolcool.\"</span>",
+        "image": "../images/robogate.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "robot-yes2"
+            }
+        ]
+    },
+    "robot-yes2": {
+        "text": "The robot explodes.",
+        "image": "../images/roboexplode.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "robot-yes3"
+            }
+        ]
+    },
+    "robot-yes3": {
+        "text": "Inside of its body you find a script to 'The Call of Fathoovu'.  You begin turning the pages.  \"Wow, really dodged that bullet.\"",
+        "image": "../images/script.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "robot-yes4"
+            }
+        ]
+    },
+    "robot-yes4": {
+        "text": "Then your eyes go wide with shock.  \"No.  This can't be how it ends.  NO!  NO!  PLEASE NO!\"",
+        "image": "../images/script.jpg",
+        "choices": [
+            {
+                "text": "Continue...",
+                "goto": "robot-yes5"
+            }
+        ]
+    },
+    "robot-yes5": {
+        "text": "Thomas the Tank Engine wearing a durag, smoking a blunt, and holding a pistol runs you over.  <span class='tomText'>\"Choo choo motha fucka!\"</span>  You got got.",
+        "image": "../images/thomasend.jpg",
         "choices": [
             {
                 "text": "You are dead.  Game over.  Restart?",
@@ -501,8 +645,8 @@
         ]
     },
     "robot-no": {
-        "text": "\"Well too bad.  I'd like to say it was a pleasure to meet you, but I was programmed to never lie.  Next time try picking less ridiculous options.  Or don't.  See if I care.  Spoiler alert: I don't.  Also, you lose.  Game over.  Good day.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "text": "<span class='roboText'>\"Well too bad.  I'd like to say it was a pleasure to meet you, but I was programmed to never lie.  Next time try picking less ridiculous options.  Or don't.  See if I care.  Spoiler alert: I don't.  Also, you lose.  Game over.  Good day.\"</span>",
+        "image": "../images/robogate.jpg",
         "choices": [
             {
                 "text": "You lose.  Good day.  Restart?",
@@ -511,7 +655,7 @@
         ]
     },
     "answer-the-call": {
-        "text": "You answer your phone and only hear ragged breathing...\"Who is this?\" you ask.  …  \"You are in great danger. He sees you. He knows where you live. …He knows your dreams and wishes to feast on your soul.  Run while you still can!\"",
+        "text": "You answer your phone and only hear ragged breathing...\"Who is this?\" you ask.  …  <span class='strangerText'>\"You are in great danger. He sees you. He knows where you live. …He knows your dreams and wishes to feast on your soul.  Run while you still can!\"</span>",
         "image": "../images/063.jpg",
         "choices": [
             {
@@ -526,10 +670,11 @@
                 "text": "Search your contacts",
                 "goto": "search-your-contacts"
             }
-        ]
+        ],
+        "sound": "../sounds/Breathing-Vent.mp3"
     },
     "ask-who-he-is-talking-about": {
-        "text": "\"Fathoovu, duh!  You have no time!  You must escape before he ki-\"  A loud scream is heard over the phone, then dead silence.  Lightning strikes again outside, with thunder quick behind.",
+        "text": "<span class='strangerText'>\"Fathoovu, duh!  You have no time!  You must escape before he ki-\"</span>  A loud scream is heard over the phone, then dead silence.  Lightning strikes again outside, with thunder quick behind.",
         "image": "../images/063.jpg",
         "choices": [
             {
@@ -587,7 +732,7 @@
         ]
     },
     "turn-on-your-tv4": {
-        "text": "Fathoovu appears on screen and an ominous voice belts out \"Your soul is mine\"",
+        "text": "Fathoovu appears on screen and an ominous voice belts out <span class='fathoovuText'>\"Your soul is mine\"</span>",
         "image": "../images/monstertv.jpg",
         "choices": [
             {
@@ -1019,7 +1164,7 @@
         ]
     },
     "worship-fathoovu2": {
-        "text": "A cultist in a robe enters your room, holding a candle.  “Come with me.”",
+        "text": "A cultist in a robe enters your room, holding a candle.  <span class='cultistText'>“Come with me.”</span>",
         "image": "../images/546.jpg",
         "choices": [
             {
@@ -1029,7 +1174,7 @@
         ]
     },
     "worship-fathoovu3": {
-        "text": "He leads you to your living room and sits across from you.  \"You will serve your new master well.\"",
+        "text": "He leads you to your living room and sits across from you.  <span class='cultistText'>\"You will serve your new master well.\"</span>",
         "image": "../images/572.jpg",
         "choices": [
             {
@@ -1039,7 +1184,7 @@
         ]
     },
     "i-obey": {
-        "text": "\"You will no longer need your eyes.  The master already sees all.\"",
+        "text": "<span class='cultistText'>\"You will no longer need your eyes.  The master already sees all.\"</span>",
         "image": "../images/572.jpg",
         "choices": [
             {
@@ -1139,7 +1284,7 @@
         ]
     },
     "no-its-not": {
-        "text": "\"Excuse me?\"",
+        "text": "<span class='fathoovuText'>\"Excuse me?\"</span>",
         "image": "../images/monstertv.jpg",
         "choices": [
             {
@@ -1153,7 +1298,7 @@
         ]
     },
     "you-heard-me": {
-        "text": "\"My mistake.  I apologize.\"",
+        "text": "<span class='fathoovuText'>\"My mistake.  I apologize.\"</span>",
         "image": "../images/monstertv.jpg",
         "choices": [
             {
@@ -1288,7 +1433,7 @@
     },
     "google-fathoovu2": {
         "text": "No results come up.  No images.  No maps.  No video.  Nothing.  Your screen however, begins to glitch.",
-        "image": "https://via.placeholder.com/1000x500/",
+        "image": "../images/685.jpg",
         "choices": [
             {
                 "text": "Continue...",
@@ -1361,7 +1506,7 @@
         ]
     },
     "updog": {
-        "text": "The creature looks confused and cocks its head to the side.  … \"What's updog?\"  \"Not much, you?\" you triumphantly reply. … \"Funny.  Funny joke.  You are a jokester.  I like jokes.\"",
+        "text": "The creature looks confused and cocks its head to the side.  … <span class='fathoovuText'>\"What's updog?\"</span>  \"Not much, you?\" you triumphantly reply. … <span class='fathoovuText'>\"Funny.  Funny joke.  You are a jokester.  I like jokes.\"</span>",
         "image": "../images/glitchscreen.jpg",
         "choices": [
             {
@@ -1379,7 +1524,7 @@
         ]
     },
     "yeah-its-a-good-one": {
-        "text": "\"No, but let's get married.\"",
+        "text": "<span class='fathoovuText'>\"No, but let's get married.\"</span>",
         "image": "../images/glitchscreen.jpg",
         "choices": [
             {
@@ -1393,7 +1538,7 @@
         ]
     },
     "your-face-is-a-joke": {
-        "text": "\"The only joke here is your continued existence.\"",
+        "text": "<span class='fathoovuText'>\"The only joke here is your continued existence.\"</span>",
         "image": "../images/glitchscreen.jpg",
         "choices": [
             {
@@ -1413,7 +1558,7 @@
         ]
     },
     "this-is-ridiculous": {
-        "text": "\"Same.\"",
+        "text": "<span class='fathoovuText'>\"Same.\"</span>",
         "image": "../images/glitchscreencool.jpg",
         "choices": [
             {
@@ -1467,7 +1612,7 @@
         ]
     },
     "what-do-you-want-with-me": {
-        "text": "The maniac responds, \"I can't let him have you.  If you knew more, you would be thanking me.\"  He lunges towards you...",
+        "text": "The maniac responds, <span class='maniacText'>\"I can't let him have you.  If you knew more, you would be thanking me.\"</span>  He lunges towards you...",
         "image": "../images/737.jpg",
         "choices": [
             {
@@ -1571,7 +1716,7 @@
         ]
     },
     "kick-the-knife4": {
-        "text": "You hear a deep breath right behind you.  You turn around, and he is face to face with you.  \"I'm sorry, but I can't let him have you.\"",
+        "text": "You hear a deep breath right behind you.  You turn around, and he is face to face with you.  <span class='maniacText'>\"I'm sorry, but I can't let him have you.\"</span>",
         "image": "../images/822.jpg",
         "choices": [
             {
@@ -1586,7 +1731,7 @@
         "choices": [
             {
                 "text": "Continue...",
-                "goto": "init"
+                "goto": "hurl-another-book2"
             }
         ]
     },
@@ -1596,7 +1741,7 @@
         "choices": [
             {
                 "text": "Continue...",
-                "goto": "init"
+                "goto": "hurl-another-book3"
             }
         ]
     },
@@ -1606,12 +1751,12 @@
         "choices": [
             {
                 "text": "Continue...",
-                "goto": "init"
+                "goto": "hurl-another-book4"
             }
         ]
     },
     "hurl-another-book4": {
-        "text": "\"Dude, I think you broke the game.\" ",
+        "text": "<span class='maniacText'>\"Dude, I think you broke the game.\"</span> ",
         "image": "../images/fourthwall.jpg",
         "choices": [
             {
