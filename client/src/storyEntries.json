@@ -59,7 +59,8 @@
                 "text": "Enjoy the trip",
                 "goto": "enjoy-the-trip"
             }
-        ]
+        ],
+        "sound": "../sounds/magic-chime.mp3"
     },
     "panic-and-drink-water": {
         "text": "You run into the bathroom...",
@@ -69,7 +70,8 @@
                 "text": "Continue...",
                 "goto": "panic-and-drink-water2"
             }
-        ]
+        ],
+        "sound": "../sounds/Wooden-Thump.mp3" 
     },
     "panic-and-drink-water2": {
         "text": "...",
@@ -89,7 +91,8 @@
                 "text": "Continue...",
                 "goto": "panic-and-drink-water4"
             }
-        ]
+        ],
+        "sound": "../sounds/Bathroom-Sink.mp3"
     },
     "panic-and-drink-water4": {
         "text": "...and begin chugging water.",
@@ -99,7 +102,8 @@
                 "text": "Continue...",
                 "goto": "panic-and-drink-water5"
             }
-        ]
+        ],
+        "sound": "../sounds/Drinking-Water.mp3"
     },
     "panic-and-drink-water5": {
         "text": "As you look up, you make the mistake of looking into the mirror, and instead of seeing yourself you see Fathoovu.  Fathoovu reaches through the mirror and kills you.",
@@ -109,7 +113,8 @@
                 "text": "YOU ARE DEAD.  Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/Demon_Your_Soul_is_mine.mp3"
     },
     "enjoy-the-trip": {
         "text": "You relax on your couch as your tv begins to display your love of the sweet tasty treat you just consumed.  You begin to laugh.  From behind you hear a bottle break, seemingly from the direction of your bathroom.",
@@ -123,7 +128,8 @@
                 "text": "Eat another oreo",
                 "goto": "eat-another-oreo"
             }
-        ]
+        ],
+        "sound": "../sounds/Civil-War-Drummer.mp3" 
     },
     "investigate-the-noise": {
         "text": "You go into your bathroom...",
@@ -133,7 +139,8 @@
                 "text": "Continue...",
                 "goto": "investigate-the-noise2"
             }
-        ]
+        ],
+        "sound": "../sounds/footsteps.mp3"
     },
     "investigate-the-noise2": {
         "text": "...to find a broken bottle, one that doesn't even look real, on the floor.",
@@ -157,7 +164,8 @@
                 "text": "Call the police",
                 "goto": "call-the-police"
             }
-        ]
+        ],
+        "sound": "../sounds/creeky-door.mp3"
     },
     "investigate-further": {
         "text": "You go into your bedroom...",
@@ -167,7 +175,8 @@
                 "text": "Continue...",
                 "goto": "investigate-further2"
             }
-        ]
+        ],
+        "sound": "../sounds/footsteps.mp3"
     },
     "investigate-further2": {
         "text": "...and find a weird creature, Fathoovu, standing on your bed. ",
@@ -177,7 +186,8 @@
                 "text": "Continue...",
                 "goto": "investigate-further3"
             }
-        ]
+        ],
+        "sound": "../sounds/scream.mp3"
     },
     "investigate-further3": {
         "text": "It immediately turns to you and glares into your eyes.",
@@ -191,7 +201,8 @@
                 "text": "Ask it's name",
                 "goto": "ask-its-name"
             }
-        ]
+        ],
+        "sound": "../sounds/black.mp3"
     },
     "call-the-police": {
         "text": "You pick up your phone and attempt to call the police.",
@@ -201,7 +212,8 @@
                 "text": "Continue...",
                 "goto": "call-the-police2"
             }
-        ]
+        ],
+        "sound": "../sounds/america-dial-tone.mp3"
     },
     "call-the-police2": {
         "text": "Your phone is dead, however.  And so are you, as an arm reaches out of your phone and kills you.",
@@ -211,7 +223,8 @@
                 "text": "YOU ARE DEAD. Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/Demon_Your_Soul_is_mine.mp3"
     },
     "run-away": {
         "text": "You begin to run away as you hear stomps behind you and an unholy roar.",
@@ -221,7 +234,8 @@
                 "text": "Continue...",
                 "goto": "run-away2"
             }
-        ]
+        ],
+        "sound": "../sounds/walk-and-grunt.mp3"
     },
     "run-away2": {
         "text": "...",
@@ -231,7 +245,8 @@
                 "text": "Continue...",
                 "goto": "run-away3"
             }
-        ]
+        ],
+        "sound": "../sounds/creeky-door.mp3"
     },
     "run-away3": {
         "text": "...You get to your front door and it is conveniently locked.",
@@ -241,7 +256,8 @@
                 "text": "Continue...",
                 "goto": "run-away4"
             }
-        ]
+        ],
+        "sound": "../sounds/Lock-And-Load.mp3"
     },
     "run-away4": {
         "text": "...",
@@ -251,7 +267,8 @@
                 "text": "Continue...",
                 "goto": "run-away5"
             }
-        ]
+        ],
+        "sound": "../sounds/walk-and-grunt.mp3"
     },
     "run-away5": {
         "text": "...",
@@ -261,7 +278,8 @@
                 "text": "Continue...",
                 "goto": "run-away6"
             }
-        ]
+        ],
+        "sound": "../sounds/Alligator-Crocodile-Growl.mp3"
     },
     "run-away6": {
         "text": "...",
@@ -275,7 +293,8 @@
                 "text": "Try to bargain with the creature",
                 "goto": "try-to-bargain"
             }
-        ]
+        ],
+        "sound": "../sounds/I_will_kill_you.mp3"
     },
     "ask-its-name": {
         "text": "You are having none of this.  You exclaim \"State your name and business, foul creature!\"",
@@ -379,7 +398,8 @@
                 "text": "Continue...",
                 "goto": "accept-your-fate2"
             }
-        ]
+        ],
+        "sound": "../sounds/Whimper.mp3"
     },
     "accept-your-fate2": {
         "text": "...and then it begins licking your toes.  It's your cat.  You get a moment of clarity and realize everything is going to be alright.  Although, in the back of your mind, you still wonder... 'who the heck is a Fathoovu?",
@@ -389,7 +409,8 @@
                 "text": "Your cat is purrfect.  Restart?",
                 "goto": "init"
             }
-        ]
+        ],
+        "sound": "../sounds/Short_Cow_MooMeow_Mix_Comm.mp3"
     },
     "try-to-bargain": {
         "text": "You try to bargain with the creature, asking what it wants.  It looks quizzically back at you...",
@@ -649,7 +670,8 @@
                 "text": "Search your contacts",
                 "goto": "search-your-contacts"
             }
-        ]
+        ],
+        "sound": "../sounds/Breathing-Vent.mp3"
     },
     "ask-who-he-is-talking-about": {
         "text": "<span class='strangerText'>\"Fathoovu, duh!  You have no time!  You must escape before he ki-\"</span>  A loud scream is heard over the phone, then dead silence.  Lightning strikes again outside, with thunder quick behind.",

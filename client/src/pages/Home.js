@@ -21,8 +21,11 @@ class Home extends Component {
                 }
             ]
         },
+        sound: "../sounds/Rain-and-thunder-loop.mp3",
         cheevos: []
     };
+
+    sound = null;
 
     componentDidMount = () => {
         api.stories.getByPath("init").then((data) => {
@@ -33,6 +36,9 @@ class Home extends Component {
     }
 
     setStoryEntry = (goto) => {
+        if (this.sound !== null)
+            this.sound.pause();
+
         // Ask for name again
         if (goto === "init")
             this.setState({ name: "", password: "" });
@@ -60,8 +66,10 @@ class Home extends Component {
             this.setState({ story: pathObj });
             if (pathObj.cheevo !== undefined)
                 this.giveCheevo(pathObj.cheevo);
-            if (pathObj.sound !== undefined)
-                new Audio(pathObj.sound).play();
+            if (pathObj.sound !== undefined) {
+                this.sound = new Audio(pathObj.sound);
+                this.sound.play();
+            }
         });
     }
 
