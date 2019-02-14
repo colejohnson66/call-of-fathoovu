@@ -21,6 +21,7 @@ class Home extends Component {
                 }
             ]
         },
+        sound: "../sounds/Rain-and-thunder-loop.mp3",
         cheevos: []
     };
 
