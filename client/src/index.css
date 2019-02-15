@@ -43,7 +43,8 @@ body {
 
 .imageContainer img {
     position: relative;
-    margin: -10% 0% -5% -2%;;
+    margin: -10% 0% -5% -2%;
+    ;
     border-radius: 5%;
     width: 1689px;
     height: 790px;
@@ -83,7 +84,6 @@ body {
     color: blue;
 }
 
-
 @media only screen and (max-width: 1366px) {
     .height100 img {
         position: relative;
@@ -109,6 +109,33 @@ body {
         -webkit-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 12% 5% stretch;
         -o-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 17% 5% 5% 5% stretch;
     }
-    
-    
+}
+
+@media only screen and (max-width: 360px) {
+    .imageContainer {
+        border: 14px solid transparent;
+        height: 640px;
+        -webkit-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 10% 7% 0% 7% stretch;
+        -o-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 10% 7% 0% 7% stretch
+    }
+    .imageContainer h3 {
+        background-color: rgba(255, 255, 255, 0.85);
+        position: relative;
+        top: -8px;
+        z-index: 1;
+        text-align: center;
+    }
+    .height100 img {
+        position: relative;
+        margin: 42% 0% 24% 14%;
+        border-radius: 5%;
+        height: 265px;
+        width: 266px;
+    }
+    .imageContainer img {
+        position: relative;
+        margin: -13% 0% -5% 3%;
+        border-radius: 5%;
+        width: 317px;
+    }
 }
