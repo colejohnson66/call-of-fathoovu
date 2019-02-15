@@ -114,6 +114,7 @@ body {
 @media only screen and (max-width: 360px) {
     .imageContainer {
         border: 14px solid transparent;
+        height: 640px;
         -webkit-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 10% 7% 0% 7% stretch;
         -o-border-image: url(http://fc05.deviantart.net/fs71/i/2012/339/6/9/parables_and_prophecies_border_art_02_by_scottpurdy-d5lkpke.jpg) 10% 7% 0% 7% stretch
     }
