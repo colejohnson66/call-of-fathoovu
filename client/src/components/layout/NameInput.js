@@ -53,7 +53,7 @@ class NameInput extends Component {
                     <TextField required={true} id="passwordInput" type="password" placeholder="Enter Your Password" />
                     <br />
                     <Button id="titlebutton" onClick={this.handleNameButtonClick}>BEGIN</Button>
-                    <Button id="cheevoButton" onClick={this.handleCheevoButtonClick}>View 'Cheevos</Button>
+                    {/*<Button id="cheevoButton" onClick={this.handleCheevoButtonClick}>View 'Cheevos</Button>*/}
                     <br />
                     {this.state.invalidPassword ? <div className="invalid">Invalid password</div> : <div></div>}
                 </div>

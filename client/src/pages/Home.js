@@ -64,8 +64,8 @@ class Home extends Component {
         api.stories.getByPath(goto).then((data) => {
             let pathObj = data[0];
             this.setState({ story: pathObj });
-            if (pathObj.cheevo !== undefined)
-                this.giveCheevo(pathObj.cheevo);
+            // if (pathObj.cheevo !== undefined)
+            //     this.giveCheevo(pathObj.cheevo);
             if (pathObj.sound !== undefined) {
                 this.sound = new Audio(pathObj.sound);
                 this.sound.play();
@@ -73,13 +73,13 @@ class Home extends Component {
         });
     }
 
-    giveCheevo = (cheevo) => {
-        api.user.addAchievement(this.state.name, this.state.password, cheevo).then((data) => {
-            api.user.getAchievements(this.state.name, this.state.password).then((data) => {
-                // Do something with data.data (it contains the list of cheevos)
-            });
-        });
-    }
+    // giveCheevo = (cheevo) => {
+    //     api.user.addAchievement(this.state.name, this.state.password, cheevo).then((data) => {
+    //         api.user.getAchievements(this.state.name, this.state.password).then((data) => {
+    //             // Do something with data.data (it contains the list of cheevos)
+    //         });
+    //     });
+    // }
 
     setUser = (name, password) => {
         this.setState({
@@ -88,11 +88,11 @@ class Home extends Component {
         });
     }
 
-    setCheevos = (cheevos) => {
-        this.setState({
-            cheevos: cheevos
-        });
-    }
+    // setCheevos = (cheevos) => {
+    //     this.setState({
+    //         cheevos: cheevos
+    //     });
+    // }
 
     getButtons = () => {
         return this.state.story.choices.map((choice, i) =>
